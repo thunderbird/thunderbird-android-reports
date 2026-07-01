@@ -11,6 +11,11 @@ on:
         description: Two-digit report month. Defaults to the previous calendar month.
         required: false
         type: string
+      lookback_months:
+        description: Number of months to regenerate, ending with the selected/default month.
+        required: false
+        default: "3"
+        type: string
   schedule:
     - cron: "15 6 * * *"
 
@@ -39,6 +44,7 @@ jobs:
         env:
           INPUT_YEAR: ${{ inputs.year }}
           INPUT_MONTH: ${{ inputs.month }}
+          INPUT_LOOKBACK_MONTHS: ${{ inputs.lookback_months }}
         run: |
           if [[ -n "$INPUT_YEAR" && -n "$INPUT_MONTH" ]]; then
             year="$INPUT_YEAR"
@@ -58,17 +64,33 @@ jobs:
             exit 1
           fi
 
+          lookback_months="${INPUT_LOOKBACK_MONTHS:-3}"
+          if [[ ! "$lookback_months" =~ ^[1-9][0-9]*$ ]]; then
+            echo "Invalid lookback_months: $lookback_months" >&2
+            exit 1
+          fi
+
+          start_year="$(date -u -d "$year-$month-01 -$((lookback_months - 1)) months" +%Y)"
+          start_month="$(date -u -d "$year-$month-01 -$((lookback_months - 1)) months" +%m)"
+
           echo "year=$year" >> "$GITHUB_OUTPUT"
           echo "month=$month" >> "$GITHUB_OUTPUT"
+          echo "lookback_months=$lookback_months" >> "$GITHUB_OUTPUT"
+          echo "start_year=$start_year" >> "$GITHUB_OUTPUT"
+          echo "start_month=$start_month" >> "$GITHUB_OUTPUT"
 
-      - name: Generate report
+      - name: Generate reports
         env:
-          YEAR: ${{ steps.report-month.outputs.year }}
-          MONTH: ${{ steps.report-month.outputs.month }}
+          END_YEAR: ${{ steps.report-month.outputs.year }}
+          END_MONTH: ${{ steps.report-month.outputs.month }}
+          LOOKBACK_MONTHS: ${{ steps.report-month.outputs.lookback_months }}
         run: |
-          args=("$YEAR" "$MONTH" "merged-prs")
+          for ((offset = LOOKBACK_MONTHS - 1; offset >= 0; offset--)); do
+            year="$(date -u -d "$END_YEAR-$END_MONTH-01 -$offset months" +%Y)"
+            month="$(date -u -d "$END_YEAR-$END_MONTH-01 -$offset months" +%m)"
 
-          ./scripts/generate-merged-pr-report.sh "${args[@]}"
+            ./scripts/generate-merged-pr-report.sh "$year" "$month" "merged-prs"
+          done
 
       - name: Commit report files
         run: |
@@ -80,5 +102,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add merged-prs
-          git commit -m "chore: update merged PR report ${{ steps.report-month.outputs.year }}-${{ steps.report-month.outputs.month }}"
+          git commit -m "chore: update merged PR reports ${{ steps.report-month.outputs.start_year }}-${{ steps.report-month.outputs.start_month }}..${{ steps.report-month.outputs.year }}-${{ steps.report-month.outputs.month }}"
           git push

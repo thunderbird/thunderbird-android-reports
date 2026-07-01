@@ -34,8 +34,8 @@ REPORT_OWNER=thunderbird REPORT_REPO=thunderbird-android ./scripts/generate-merg
 
 ## GitHub Workflow
 
-The workflow can be run manually with a year and month. If no values are provided, it generates the previous calendar month.
+The workflow can be run manually with a year, month, and lookback month count. If no year and month are provided, the workflow ends at the previous calendar month. The lookback defaults to 3 months.
 
-The scheduled workflow runs daily at 06:15 UTC.
+The scheduled workflow runs daily at 06:15 UTC and regenerates the configured lookback window so release/tag updates can update older monthly reports.
 
 The workflow commits changed files under `merged-prs/` back to the report repository. Markdown reports and the report index are written to `merged-prs/`; CSV exports are written to `merged-prs/csv/`. Each Markdown report links to its matching CSV export. It uses `GITHUB_TOKEN` for public repository access and repository write access.
