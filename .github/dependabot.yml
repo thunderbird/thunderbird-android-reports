@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    open-pull-requests-limit: 10
+    schedule:
+      interval: "weekly"
+    labels:
+      - "type: dependency"
+      - "type: github actions"
+    cooldown:
+      default-days: 7

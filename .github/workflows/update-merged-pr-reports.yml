@@ -1,0 +1,84 @@
+name: Update merged PR reports
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: Four-digit report year. Defaults to the previous calendar month.
+        required: false
+        type: string
+      month:
+        description: Two-digit report month. Defaults to the previous calendar month.
+        required: false
+        type: string
+  schedule:
+    - cron: "15 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate report
+    runs-on: ubuntu-latest
+
+    env:
+      REPORT_OWNER: thunderbird
+      REPORT_REPO: thunderbird-android
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - name: Check out report repository
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Resolve report month
+        id: report-month
+        env:
+          INPUT_YEAR: ${{ inputs.year }}
+          INPUT_MONTH: ${{ inputs.month }}
+        run: |
+          if [[ -n "$INPUT_YEAR" && -n "$INPUT_MONTH" ]]; then
+            year="$INPUT_YEAR"
+            month="$INPUT_MONTH"
+          else
+            year="$(date -u -d "last month" +%Y)"
+            month="$(date -u -d "last month" +%m)"
+          fi
+
+          if [[ ! "$year" =~ ^[0-9]{4}$ ]]; then
+            echo "Invalid year: $year" >&2
+            exit 1
+          fi
+
+          if [[ ! "$month" =~ ^(0[1-9]|1[0-2])$ ]]; then
+            echo "Invalid month: $month" >&2
+            exit 1
+          fi
+
+          echo "year=$year" >> "$GITHUB_OUTPUT"
+          echo "month=$month" >> "$GITHUB_OUTPUT"
+
+      - name: Generate report
+        env:
+          YEAR: ${{ steps.report-month.outputs.year }}
+          MONTH: ${{ steps.report-month.outputs.month }}
+        run: |
+          args=("$YEAR" "$MONTH" "merged-prs")
+
+          ./scripts/generate-merged-pr-report.sh "${args[@]}"
+
+      - name: Commit report files
+        run: |
+          if [[ -z "$(git status --porcelain -- merged-prs)" ]]; then
+            echo "No report changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add merged-prs
+          git commit -m "chore: update merged PR report ${{ steps.report-month.outputs.year }}-${{ steps.report-month.outputs.month }}"
+          git push
