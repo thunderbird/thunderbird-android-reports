@@ -1,1 +1,2 @@
 Branch,Number,Merged,Author,Title,Report,Beta,Release,SHA,URL,Comment
+"main","11225","2026-07-01","mvanhorn","fix: prevent horizontal scrolling in the message viewport","Include","-","-","-","89fb80a4077abb7cf15a7888eb75bbc9d2d2bc0f","https://github.com/thunderbird/thunderbird-android/pull/11225",""

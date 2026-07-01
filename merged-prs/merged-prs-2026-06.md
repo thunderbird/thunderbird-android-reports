@@ -101,6 +101,7 @@
 | PR | Merged | SHA | Title | Feature Flag | Beta | Release |
 |---|---|---|---|---|---|---|
 | [#11221](https://github.com/thunderbird/thunderbird-android/pull/11221) | 2026-06-29 | [e3d397b](https://github.com/thunderbird/thunderbird-android/commit/e3d397b20f4a4906d2654a524726399a2eebee42) | uplift(beta): fix(ui): use selected account for manage folders (#11152) | - | [THUNDERBIRD_21_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_21_0b2) | - |
+| [#11220](https://github.com/thunderbird/thunderbird-android/pull/11220) | 2026-06-29 | [98b62ab](https://github.com/thunderbird/thunderbird-android/commit/98b62ab283bca3f6aa855d826db7dd7a06ba20ad) | uplift(beta): fix(account-settings): colour picker crashing by 'infinity maximum height constraints' (#11201) | - | [THUNDERBIRD_21_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_21_0b2) | - |
 
 <details>
 <summary>Excluded</summary>
@@ -111,7 +112,6 @@
 | [#11100](https://github.com/thunderbird/thunderbird-android/pull/11100) | 2026-06-04 | [3cbc82c](https://github.com/thunderbird/thunderbird-android/commit/3cbc82cb4fd0c48a6f58a7f63bb8dc87920c233b) | uplift(beta): refactor(migration): replace NoOpMigrationManager with K9MigrationManager using QrCodeScannerActivityContract (#11099) | - | [THUNDERBIRD_20_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_20_0b2) | [THUNDERBIRD_20_0](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_20_0) |
 | [#11108](https://github.com/thunderbird/thunderbird-android/pull/11108) | 2026-06-04 | [5eb1124](https://github.com/thunderbird/thunderbird-android/commit/5eb1124e792df157bd20db1f7cb8ed9b293f9a68) | uplift(beta): feat(ci): automate versionName bump for point release i… | - | [THUNDERBIRD_21_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_21_0b1) | [THUNDERBIRD_20_0](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_20_0) |
 | [#11177](https://github.com/thunderbird/thunderbird-android/pull/11177) | 2026-06-25 | [24554b2](https://github.com/thunderbird/thunderbird-android/commit/24554b26a9c85bc31b47c1f196ab519404283a8f) | fix(CI): Add missing GITHUB_TOKEN for contributor_list generation | - | [THUNDERBIRD_21_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_21_0b2) | - |
-| [#11220](https://github.com/thunderbird/thunderbird-android/pull/11220) | 2026-06-29 | [98b62ab](https://github.com/thunderbird/thunderbird-android/commit/98b62ab283bca3f6aa855d826db7dd7a06ba20ad) | uplift(beta): fix(account-settings): colour picker crashing by 'infinity maximum height constraints' (#11201) | - | [THUNDERBIRD_21_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_21_0b2) | - |
 
 </details>
 
