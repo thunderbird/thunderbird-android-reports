@@ -1,2 +1,6 @@
 Branch,Number,Merged,Author,Title,Report,Beta,Release,SHA,URL,Comment
 "main","11225","2026-07-01","mvanhorn","fix: prevent horizontal scrolling in the message viewport","Include","-","-","-","89fb80a4077abb7cf15a7888eb75bbc9d2d2bc0f","https://github.com/thunderbird/thunderbird-android/pull/11225",""
+"main","11142","2026-07-01","wmontwe","refactor: change package to Bolt","Exclude","-","-","-","682d4712a3e09b2d2ed6d079e12125e07daddad3","https://github.com/thunderbird/thunderbird-android/pull/11142",""
+"main","11226","2026-07-02","wmontwe","chore(deps): bump Gradle 9.6.0 -> 9.6.1","Exclude","-","-","-","caa7b98be939573f187e69449d6dc9927415caa6","https://github.com/thunderbird/thunderbird-android/pull/11226",""
+"main","11230","2026-07-02","wmontwe","chore(build): improve detektAll checks","Exclude","-","-","-","4cafeb5b2b8a2cdd0f9d8c8c49cdfe5edaf9546d","https://github.com/thunderbird/thunderbird-android/pull/11230",""
+"main","11236","2026-07-03","wmontwe","chore(deps): bump JVM target to 17","Exclude","-","-","-","979e4a5fca20599491dad4514fbc7771d215056a","https://github.com/thunderbird/thunderbird-android/pull/11236",""
