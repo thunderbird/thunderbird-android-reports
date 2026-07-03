@@ -5,8 +5,9 @@ This repository contains generated project reports and the tooling used to updat
 ## Contents
 
 - `scripts/generate-merged-pr-report.sh` - merged pull request report generator
-- `merged-prs/` - committed Markdown reports and an auto-generated report index
-- `merged-prs/csv/` - committed CSV exports for spreadsheet or tool usage
+- `reports/` - report entry point and static overview
+- `reports/merged-prs/` - committed Markdown reports and an auto-generated report index
+- `reports/merged-prs/csv/` - committed CSV exports for spreadsheet or tool usage
 - `.github/workflows/update-merged-pr-reports.yml` - GitHub Actions workflow that generates and commits report changes
 
 ## Requirements
@@ -23,13 +24,13 @@ Local generation requires:
 Generate a report for a specific month:
 
 ```bash
-./scripts/generate-merged-pr-report.sh 2026 02 merged-prs
+./scripts/generate-merged-pr-report.sh 2026 02 reports/merged-prs
 ```
 
 The generator defaults to `thunderbird/thunderbird-android`. Override the source repository with environment variables:
 
 ```bash
-REPORT_OWNER=thunderbird REPORT_REPO=thunderbird-android ./scripts/generate-merged-pr-report.sh 2026 02 merged-prs
+REPORT_OWNER=thunderbird REPORT_REPO=thunderbird-android ./scripts/generate-merged-pr-report.sh 2026 02 reports/merged-prs
 ```
 
 ## GitHub Workflow
@@ -38,4 +39,4 @@ The workflow can be run manually with a year, month, and lookback month count. I
 
 The scheduled workflow runs daily at 06:15 UTC and regenerates the configured lookback window so release/tag updates can update older monthly reports.
 
-The workflow commits changed files under `merged-prs/` back to the report repository. Markdown reports and the report index are written to `merged-prs/`; CSV exports are written to `merged-prs/csv/`. Each Markdown report links to its matching CSV export. It uses `GITHUB_TOKEN` for public repository access and repository write access.
+The workflow commits changed files under `reports/merged-prs/` back to the report repository. Markdown reports and the report index are written to `reports/merged-prs/`; CSV exports are written to `reports/merged-prs/csv/`. Each Markdown report links to its matching CSV export. It uses `GITHUB_TOKEN` for public repository access and repository write access.

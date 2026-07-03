@@ -10,7 +10,7 @@
 #
 # Example:
 #   ./merged-prs-report 2026 02
-#   ./merged-prs-report 2026 02 ./reports
+#   ./merged-prs-report 2026 02 ./reports/merged-prs
 #
 # Arguments:
 #   YEAR           Four-digit year (e.g. 2026)
