@@ -121,8 +121,8 @@
 
 | PR | Merged | SHA | Title | Feature Flag | Beta | Release |
 |---|---|---|---|---|---|---|
-| [#11219](https://github.com/thunderbird/thunderbird-android/pull/11219) | 2026-06-29 | [ac57bee](https://github.com/thunderbird/thunderbird-android/commit/ac57beed4879e6ab54a23d3303254209f6d0240e) | uplift(release): fix(webview): prevent crash by disabling webview hardware layer (#11149) | - | - | Not released yet |
-| [#11217](https://github.com/thunderbird/thunderbird-android/pull/11217) | 2026-06-29 | [9f189cc](https://github.com/thunderbird/thunderbird-android/commit/9f189cc31c3bf5c0b6d8002bafeb0125ffbcedaa) | uplift(release): fix: relative date format crash (#11154) | - | - | Not released yet |
+| [#11219](https://github.com/thunderbird/thunderbird-android/pull/11219) | 2026-06-29 | [ac57bee](https://github.com/thunderbird/thunderbird-android/commit/ac57beed4879e6ab54a23d3303254209f6d0240e) | uplift(release): fix(webview): prevent crash by disabling webview hardware layer (#11149) | - | - | [THUNDERBIRD_20_1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_20_1) |
+| [#11217](https://github.com/thunderbird/thunderbird-android/pull/11217) | 2026-06-29 | [9f189cc](https://github.com/thunderbird/thunderbird-android/commit/9f189cc31c3bf5c0b6d8002bafeb0125ffbcedaa) | uplift(release): fix: relative date format crash (#11154) | - | - | [THUNDERBIRD_20_1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_20_1) |
 
 <details>
 <summary>Excluded</summary>
