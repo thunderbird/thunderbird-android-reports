@@ -20,6 +20,10 @@
 | [#11193](https://github.com/thunderbird/thunderbird-android/pull/11193) | 2026-07-06 | [5f507c2](https://github.com/thunderbird/thunderbird-android/commit/5f507c2fdb73843c4248d4ab7cb1d2f84de9447b) | fix: thread counted as single message in confirmation dialog | - | [THUNDERBIRD_22_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_22_0b1) | - |
 | [#11212](https://github.com/thunderbird/thunderbird-android/pull/11212) | 2026-07-14 | [f9b0ced](https://github.com/thunderbird/thunderbird-android/commit/f9b0ced282775471be38a8964b7977206dc9f158) | fix: allow scrolling the notification actions list on small screens | - | [THUNDERBIRD_22_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_22_0b1) | - |
 | [#11239](https://github.com/thunderbird/thunderbird-android/pull/11239) | 2026-07-21 | [b3e9f68](https://github.com/thunderbird/thunderbird-android/commit/b3e9f688f4fc4acedb23cc0e7d9a219cc78fee34) | feat: add script to generate release changelog JSON from thunderbird-notes | - | - | - |
+| [#11277](https://github.com/thunderbird/thunderbird-android/pull/11277) | 2026-07-23 | [784219f](https://github.com/thunderbird/thunderbird-android/commit/784219fb2538c8cadea4e5370b3b95b30f67609e) | fix: empty trash action not triggering | - | - | - |
+| [#11280](https://github.com/thunderbird/thunderbird-android/pull/11280) | 2026-07-27 | [217eea6](https://github.com/thunderbird/thunderbird-android/commit/217eea66ddf8927f4bcb2ed9bbfc2112a912c9c4) | fix(message-extractor): skip unavailable text parts | - | - | - |
+| [#11339](https://github.com/thunderbird/thunderbird-android/pull/11339) | 2026-07-30 | [3d9fd74](https://github.com/thunderbird/thunderbird-android/commit/3d9fd7463f7a0ab57d9c27a0a31f6633350937f9) | chore(deps): bump android billingclient to 9.1.0 | - | - | - |
+| [#11185](https://github.com/thunderbird/thunderbird-android/pull/11185) | 2026-07-30 | [5a3b2a9](https://github.com/thunderbird/thunderbird-android/commit/5a3b2a92d9e536eaf8d4c728294fa810388e2854) | chore(i18n): translations update from Weblate | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -45,12 +49,27 @@
 | [#11286](https://github.com/thunderbird/thunderbird-android/pull/11286) | 2026-07-22 | [e1daa8d](https://github.com/thunderbird/thunderbird-android/commit/e1daa8dcb23b1126bc66729a450ad147bf3c4ed0) | chore(deps): bump ch.qos.logback:logback-classic from 1.5.37 to 1.5.38 | - | - | - |
 | [#11279](https://github.com/thunderbird/thunderbird-android/pull/11279) | 2026-07-22 | [5b04d66](https://github.com/thunderbird/thunderbird-android/commit/5b04d66f528ae6fdba5539f5eb4f8601e5372fb7) | chore(build): enable Gradle isolated build | - | - | - |
 | [#11282](https://github.com/thunderbird/thunderbird-android/pull/11282) | 2026-07-22 | [38a4b0a](https://github.com/thunderbird/thunderbird-android/commit/38a4b0aeb5a92dc0cdfcdda45f654b1081de46c5) | chore(deps): bump kotlinBom from 2.4.0 to 2.4.10 | - | - | - |
+| [#11233](https://github.com/thunderbird/thunderbird-android/pull/11233) | 2026-07-24 | [3ed1447](https://github.com/thunderbird/thunderbird-android/commit/3ed1447f8c229e5aa0d72a57eca2d1ead0ec575d) | chore(ci): change setup gradle to use basic cache provider | - | - | - |
+| [#11319](https://github.com/thunderbird/thunderbird-android/pull/11319) | 2026-07-29 | [8c65f4d](https://github.com/thunderbird/thunderbird-android/commit/8c65f4dfd111f56a41d7e71d247e0b67b0169644) | fix(warnings): apply DslMarker to builder classes instead of functions | - | - | - |
+| [#11315](https://github.com/thunderbird/thunderbird-android/pull/11315) | 2026-07-29 | [0ff3843](https://github.com/thunderbird/thunderbird-android/commit/0ff38431b27e6a416b67e24968f1800ba591df79) | chore(deps): bump io.nlopez.compose.rules:detekt from 0.6.2 to 0.6.3 | - | - | - |
+| [#11316](https://github.com/thunderbird/thunderbird-android/pull/11316) | 2026-07-29 | [776aa8c](https://github.com/thunderbird/thunderbird-android/commit/776aa8c013d8dad2dc895fd5481b3caa685e1736) | refactor(logging): move legacy Log to legacy:logging module | - | - | - |
+| [#11314](https://github.com/thunderbird/thunderbird-android/pull/11314) | 2026-07-30 | [7031123](https://github.com/thunderbird/thunderbird-android/commit/70311233a8e58e2c54a639e73f6b70c54519097e) | chore(deps): bump org.jetbrains.kotlinx.kover from 0.9.8 to 0.9.9 | - | - | - |
+| [#11317](https://github.com/thunderbird/thunderbird-android/pull/11317) | 2026-07-30 | [7d4eb27](https://github.com/thunderbird/thunderbird-android/commit/7d4eb275e42dc3da489ff27d85d3f934b3335097) | chore: bump targetSdk to 36 | - | - | - |
+| [#11273](https://github.com/thunderbird/thunderbird-android/pull/11273) | 2026-07-30 | [3361deb](https://github.com/thunderbird/thunderbird-android/commit/3361debb2f5fe4c0b58efd9efda3c1dae8e94ebd) | docs(tech-design): add the tech design for declarative Feature Flag Catalog | - | - | - |
+| [#11340](https://github.com/thunderbird/thunderbird-android/pull/11340) | 2026-07-31 | [353dc23](https://github.com/thunderbird/thunderbird-android/commit/353dc2309715f9f50fe81157f3177afd7be1008a) | chore(build): Enable Configuration Cache | - | - | - |
 
 </details>
 
 ## Branch: beta
 
-_No merged PRs in this range._
+<details>
+<summary>Excluded</summary>
+
+| PR | Merged | SHA | Title | Feature Flag | Beta | Release |
+|---|---|---|---|---|---|---|
+| [#11310](https://github.com/thunderbird/thunderbird-android/pull/11310) | 2026-07-27 | [56a5107](https://github.com/thunderbird/thunderbird-android/commit/56a5107b3152e6b918ad7581a581b78c081ed375) | uplift(beta): fix: empty trash action not triggering (#11277) | - | [THUNDERBIRD_22_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_22_0b2) | - |
+
+</details>
 
 ## Branch: release
 
