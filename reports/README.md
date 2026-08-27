@@ -1,5 +1,6 @@
 # Reports
 
-Generated merged pull request reports live in `reports/merged-prs/`.
+Generated reports for Thunderbird for Android are available by month.
 
-Monthly Markdown reports and the report index are in `reports/merged-prs/README.md`. CSV exports are in `reports/merged-prs/csv/`.
+- [Browse monthly merged pull request reports](merged-prs/README.md) for Markdown and CSV links.
+- [Browse CSV exports](merged-prs/csv/) for spreadsheet-friendly data.

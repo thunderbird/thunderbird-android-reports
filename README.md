@@ -1,17 +1,25 @@
-# Thunderbird Android Report Project
+# Thunderbird for Android reports
 
-Project reports for Thunderbird for Android.
+This repository publishes automatically generated reports for the [Thunderbird for Android](https://github.com/thunderbird/thunderbird-android) project.
 
-## Reports
+## Find a report
 
-Merged pull request reports are available in `reports/merged-prs/`.
+- [Browse monthly merged pull request reports](reports/merged-prs/README.md) — the report index, with Markdown and CSV downloads for every month.
+- [Browse CSV exports](reports/merged-prs/csv/) — spreadsheet-friendly data for all available months.
 
-The reports entry point is `reports/README.md`. Monthly report listings are in `reports/merged-prs/README.md`, and CSV exports are available in `reports/merged-prs/csv/`.
+Reports are updated daily. Each run refreshes the current month and the three preceding months so that release and beta information remains current.
 
-Markdown reports group each branch by report status. `Highlight`, `Include`, and `Review` are shown as regular sections; `Exclude` is kept in a collapsed section for auditability without dominating the report.
+## What's in a report?
 
-Markdown reports include linked short merge SHAs. Beta and release tag values link to their matching GitHub release pages.
+Each monthly report lists pull requests merged into the `main`, `beta`, and `release` branches. It includes the merge date, author, merge commit, feature-flag reference, report status, and the first beta or release tag that contains the change.
+
+The Markdown report groups entries by status:
+
+- **Highlight**, **Include**, and **Review** are shown as regular sections.
+- **Exclude** remains available in a collapsed section for auditability.
+
+Short merge SHAs and beta or release tags link to their corresponding GitHub pages.
 
 ## Contributing
 
-See `CONTRIBUTING.md` for report generation and automation details.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for report generation and automation details.
