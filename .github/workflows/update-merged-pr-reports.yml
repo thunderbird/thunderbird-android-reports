@@ -4,15 +4,15 @@ on:
   workflow_dispatch:
     inputs:
       year:
-        description: Four-digit report year. Defaults to the previous calendar month.
+        description: Four-digit final report year. Defaults to the current calendar month.
         required: false
         type: string
       month:
-        description: Two-digit report month. Defaults to the previous calendar month.
+        description: Two-digit final report month. Defaults to the current calendar month.
         required: false
         type: string
       lookback_months:
-        description: Number of months to regenerate, ending with the selected/default month.
+        description: Number of preceding months to regenerate with the selected/default month.
         required: false
         default: "3"
         type: string
@@ -50,8 +50,8 @@ jobs:
             year="$INPUT_YEAR"
             month="$INPUT_MONTH"
           else
-            year="$(date -u -d "last month" +%Y)"
-            month="$(date -u -d "last month" +%m)"
+            year="$(date -u +%Y)"
+            month="$(date -u +%m)"
           fi
 
           if [[ ! "$year" =~ ^[0-9]{4}$ ]]; then
@@ -70,8 +70,8 @@ jobs:
             exit 1
           fi
 
-          start_year="$(date -u -d "$year-$month-01 -$((lookback_months - 1)) months" +%Y)"
-          start_month="$(date -u -d "$year-$month-01 -$((lookback_months - 1)) months" +%m)"
+          start_year="$(date -u -d "$year-$month-01 -$lookback_months months" +%Y)"
+          start_month="$(date -u -d "$year-$month-01 -$lookback_months months" +%m)"
 
           echo "year=$year" >> "$GITHUB_OUTPUT"
           echo "month=$month" >> "$GITHUB_OUTPUT"
@@ -85,7 +85,7 @@ jobs:
           END_MONTH: ${{ steps.report-month.outputs.month }}
           LOOKBACK_MONTHS: ${{ steps.report-month.outputs.lookback_months }}
         run: |
-          for ((offset = LOOKBACK_MONTHS - 1; offset >= 0; offset--)); do
+          for ((offset = LOOKBACK_MONTHS; offset >= 0; offset--)); do
             year="$(date -u -d "$END_YEAR-$END_MONTH-01 -$offset months" +%Y)"
             month="$(date -u -d "$END_YEAR-$END_MONTH-01 -$offset months" +%m)"
 
