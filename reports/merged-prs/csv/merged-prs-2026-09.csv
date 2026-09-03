@@ -1,1 +1,7 @@
 Branch,Number,Merged,Author,Title,Report,Beta,Release,SHA,URL,Comment
+"main","11477","2026-09-02","app/dependabot","chore(deps): bump org.robolectric:robolectric from 4.17-beta-2 to 4.17-beta-4","Exclude","-","-","-","47fcbcb362af090e15cc09aed5bac761443a51c1","https://github.com/thunderbird/thunderbird-android/pull/11477",""
+"main","11483","2026-09-02","app/github-actions","chore(i18n): translations update from Weblate","Include","-","-","-","c811c7c37d655a2ced51e66b8afadde56c2f25dd","https://github.com/thunderbird/thunderbird-android/pull/11483",""
+"main","11473","2026-09-02","app/dependabot","chore(deps): bump com.networknt:json-schema-validator from 3.0.6 to 3.0.7","Exclude","-","-","-","708c8a40511354174bfd8152f0eed6388d240b1a","https://github.com/thunderbird/thunderbird-android/pull/11473",""
+"main","11460","2026-09-02","Logeshsharma","fix(launcher): handle QR code navigation","Include","-","-","-","b6a662622d5c0f5725a247087c799052f7fdc9f6","https://github.com/thunderbird/thunderbird-android/pull/11460",""
+"main","11301","2026-09-02","AvikMakwana","fix(message-composer): text selection highlight in light theme","Include","-","-","-","339b32ad4eecd773426079ace6fadc48ef25c14d","https://github.com/thunderbird/thunderbird-android/pull/11301",""
+"main","11410","2026-09-02","snowykte0426","fix(edge-to-edge): keep the status bar visible in message selection mode","Include","-","-","-","f1e79b228c1e7910316afb5e2989078d87585159","https://github.com/thunderbird/thunderbird-android/pull/11410",""
