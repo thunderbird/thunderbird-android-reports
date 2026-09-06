@@ -17,6 +17,7 @@
 | [#11471](https://github.com/thunderbird/thunderbird-android/pull/11471) | 2026-09-03 | [d5afc89](https://github.com/thunderbird/thunderbird-android/commit/d5afc89de5f2316b0fa85755e0c6a6fdd519b251) | docs(rfc): global database | - | Not released yet | - |
 | [#11472](https://github.com/thunderbird/thunderbird-android/pull/11472) | 2026-09-04 | [b6ccb4c](https://github.com/thunderbird/thunderbird-android/commit/b6ccb4cfacc46b7cb6f5111e0adc23df24a6de9b) | docs(technical-design): global database | - | - | - |
 | [#11488](https://github.com/thunderbird/thunderbird-android/pull/11488) | 2026-09-04 | [23098bf](https://github.com/thunderbird/thunderbird-android/commit/23098bfdaccf0072b7486d7287d77e45af3ce284) | feat(account-drawer) Made the landscape view and small screen view us… | - | - | - |
+| [#11436](https://github.com/thunderbird/thunderbird-android/pull/11436) | 2026-09-05 | [230a5c3](https://github.com/thunderbird/thunderbird-android/commit/230a5c33aad986828499795b082ca081a76faf18) | feat: add progress indicator for encrypting messages | - | - | - |
 
 <details>
 <summary>Excluded</summary>
