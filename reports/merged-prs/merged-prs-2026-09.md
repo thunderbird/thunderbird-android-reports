@@ -20,6 +20,8 @@
 | [#11436](https://github.com/thunderbird/thunderbird-android/pull/11436) | 2026-09-05 | [230a5c3](https://github.com/thunderbird/thunderbird-android/commit/230a5c33aad986828499795b082ca081a76faf18) | feat: add progress indicator for encrypting messages | - | - | - |
 | [#11455](https://github.com/thunderbird/thunderbird-android/pull/11455) | 2026-09-08 | [a2bf69a](https://github.com/thunderbird/thunderbird-android/commit/a2bf69a1aa1237cc026154d63314791c7e68b3cd) | refactor: Replace Changelog Data Source | - | - | - |
 | [#11503](https://github.com/thunderbird/thunderbird-android/pull/11503) | 2026-09-09 | [8871565](https://github.com/thunderbird/thunderbird-android/commit/8871565ef3098035a9a518a748ea41c8376a748f) | docs(rfc): portable profile data format | - | - | - |
+| [#11527](https://github.com/thunderbird/thunderbird-android/pull/11527) | 2026-09-09 | [2280d75](https://github.com/thunderbird/thunderbird-android/commit/2280d7522379f8f78133bf33745adf6e63ec635b) | chore(i18n): translations update from Weblate | - | - | - |
+| [#11510](https://github.com/thunderbird/thunderbird-android/pull/11510) | 2026-09-09 | [09f0589](https://github.com/thunderbird/thunderbird-android/commit/09f0589b1e0cb85369d6e7eca5fb7987c5928f39) | fix: utf8 decoding | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -36,6 +38,8 @@
 | [#11517](https://github.com/thunderbird/thunderbird-android/pull/11517) | 2026-09-08 | [0397ceb](https://github.com/thunderbird/thunderbird-android/commit/0397ceb191e0ae8534bf0de44d6a2eeefffbe6a3) | chore(deps): bump io.nlopez.compose.rules:detekt from 0.6.4 to 0.6.6 | - | - | - |
 | [#11506](https://github.com/thunderbird/thunderbird-android/pull/11506) | 2026-09-08 | [7172a4a](https://github.com/thunderbird/thunderbird-android/commit/7172a4aae48395eea9759167c14b64472406e830) | chore(ci): classify external issues as unconfirmed bugs | - | - | - |
 | [#11515](https://github.com/thunderbird/thunderbird-android/pull/11515) | 2026-09-08 | [ef4859b](https://github.com/thunderbird/thunderbird-android/commit/ef4859bcabe51a55991de73dd3612d70d13a9a75) | chore(deps): bump com.diffplug.spotless from 8.10.0 to 8.10.1 | - | - | - |
+| [#11512](https://github.com/thunderbird/thunderbird-android/pull/11512) | 2026-09-09 | [77f2901](https://github.com/thunderbird/thunderbird-android/commit/77f29016ebe2e45b2a0f11e7d7e59c62aecaeeb6) | docs(rfc): uuidv7 identifier migration | - | - | - |
+| [#11516](https://github.com/thunderbird/thunderbird-android/pull/11516) | 2026-09-09 | [86b7a5e](https://github.com/thunderbird/thunderbird-android/commit/86b7a5ed7e732c1ea75ae1f35d43447d0939d0e0) | chore(deps): bump org.jetbrains.kotlinx:kotlinx-collections-immutable from 0.5.1 to 0.5.2 | - | - | - |
 
 </details>
 
