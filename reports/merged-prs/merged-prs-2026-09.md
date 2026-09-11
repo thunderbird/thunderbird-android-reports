@@ -22,6 +22,7 @@
 | [#11503](https://github.com/thunderbird/thunderbird-android/pull/11503) | 2026-09-09 | [8871565](https://github.com/thunderbird/thunderbird-android/commit/8871565ef3098035a9a518a748ea41c8376a748f) | docs(rfc): portable profile data format | - | - | - |
 | [#11527](https://github.com/thunderbird/thunderbird-android/pull/11527) | 2026-09-09 | [2280d75](https://github.com/thunderbird/thunderbird-android/commit/2280d7522379f8f78133bf33745adf6e63ec635b) | chore(i18n): translations update from Weblate | - | - | - |
 | [#11510](https://github.com/thunderbird/thunderbird-android/pull/11510) | 2026-09-09 | [09f0589](https://github.com/thunderbird/thunderbird-android/commit/09f0589b1e0cb85369d6e7eca5fb7987c5928f39) | fix: utf8 decoding | - | - | - |
+| [#11514](https://github.com/thunderbird/thunderbird-android/pull/11514) | 2026-09-10 | [ca66ee5](https://github.com/thunderbird/thunderbird-android/commit/ca66ee5fe33dd3a3b7992dd4249c1dad375a5c66) | fix(funding): center last row of contribution items | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -40,6 +41,9 @@
 | [#11515](https://github.com/thunderbird/thunderbird-android/pull/11515) | 2026-09-08 | [ef4859b](https://github.com/thunderbird/thunderbird-android/commit/ef4859bcabe51a55991de73dd3612d70d13a9a75) | chore(deps): bump com.diffplug.spotless from 8.10.0 to 8.10.1 | - | - | - |
 | [#11512](https://github.com/thunderbird/thunderbird-android/pull/11512) | 2026-09-09 | [77f2901](https://github.com/thunderbird/thunderbird-android/commit/77f29016ebe2e45b2a0f11e7d7e59c62aecaeeb6) | docs(rfc): uuidv7 identifier migration | - | - | - |
 | [#11516](https://github.com/thunderbird/thunderbird-android/pull/11516) | 2026-09-09 | [86b7a5e](https://github.com/thunderbird/thunderbird-android/commit/86b7a5ed7e732c1ea75ae1f35d43447d0939d0e0) | chore(deps): bump org.jetbrains.kotlinx:kotlinx-collections-immutable from 0.5.1 to 0.5.2 | - | - | - |
+| [#11520](https://github.com/thunderbird/thunderbird-android/pull/11520) | 2026-09-10 | [ac81cb7](https://github.com/thunderbird/thunderbird-android/commit/ac81cb79dd0d649c7f8e671e889b8c05a3917c42) | refactor: migrate outcome to tfa components | - | - | - |
+| [#11513](https://github.com/thunderbird/thunderbird-android/pull/11513) | 2026-09-10 | [62aa2d8](https://github.com/thunderbird/thunderbird-android/commit/62aa2d8cbd67f7b47eedc1d9bee19efc6c1ce4f6) | feat: uuidv7 identifier generation | - | - | - |
+| [#11490](https://github.com/thunderbird/thunderbird-android/pull/11490) | 2026-09-10 | [584ea8c](https://github.com/thunderbird/thunderbird-android/commit/584ea8c291fd3df0684f516e31fd25ddeff0d4e1) | docs(contributing): document Android SDK location for components build | - | - | - |
 
 </details>
 
