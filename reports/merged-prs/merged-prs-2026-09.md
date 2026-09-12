@@ -23,6 +23,8 @@
 | [#11527](https://github.com/thunderbird/thunderbird-android/pull/11527) | 2026-09-09 | [2280d75](https://github.com/thunderbird/thunderbird-android/commit/2280d7522379f8f78133bf33745adf6e63ec635b) | chore(i18n): translations update from Weblate | - | - | - |
 | [#11510](https://github.com/thunderbird/thunderbird-android/pull/11510) | 2026-09-09 | [09f0589](https://github.com/thunderbird/thunderbird-android/commit/09f0589b1e0cb85369d6e7eca5fb7987c5928f39) | fix: utf8 decoding | - | - | - |
 | [#11514](https://github.com/thunderbird/thunderbird-android/pull/11514) | 2026-09-10 | [ca66ee5](https://github.com/thunderbird/thunderbird-android/commit/ca66ee5fe33dd3a3b7992dd4249c1dad375a5c66) | fix(funding): center last row of contribution items | - | - | - |
+| [#11538](https://github.com/thunderbird/thunderbird-android/pull/11538) | 2026-09-11 | [0f66b47](https://github.com/thunderbird/thunderbird-android/commit/0f66b47ee040f24588401f628362770b883f25dd) | fix(settings): prevent HTML signature preview reloads on rotation | - | - | - |
+| [#11491](https://github.com/thunderbird/thunderbird-android/pull/11491) | 2026-09-11 | [02e7041](https://github.com/thunderbird/thunderbird-android/commit/02e70411c5213bb14f4418819f8cca844323fb32) | fix(ui) changed drawer to follow expected behavior for auto closing | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -44,6 +46,8 @@
 | [#11520](https://github.com/thunderbird/thunderbird-android/pull/11520) | 2026-09-10 | [ac81cb7](https://github.com/thunderbird/thunderbird-android/commit/ac81cb79dd0d649c7f8e671e889b8c05a3917c42) | refactor: migrate outcome to tfa components | - | - | - |
 | [#11513](https://github.com/thunderbird/thunderbird-android/pull/11513) | 2026-09-10 | [62aa2d8](https://github.com/thunderbird/thunderbird-android/commit/62aa2d8cbd67f7b47eedc1d9bee19efc6c1ce4f6) | feat: uuidv7 identifier generation | - | - | - |
 | [#11490](https://github.com/thunderbird/thunderbird-android/pull/11490) | 2026-09-10 | [584ea8c](https://github.com/thunderbird/thunderbird-android/commit/584ea8c291fd3df0684f516e31fd25ddeff0d4e1) | docs(contributing): document Android SDK location for components build | - | - | - |
+| [#11480](https://github.com/thunderbird/thunderbird-android/pull/11480) | 2026-09-11 | [590465f](https://github.com/thunderbird/thunderbird-android/commit/590465f5f99fb097cf86b136f1ee6f221fdfef8d) | refactor(db-repository): extract remote folder queries to dedicated repositories | - | - | - |
+| [#11532](https://github.com/thunderbird/thunderbird-android/pull/11532) | 2026-09-11 | [a88ae92](https://github.com/thunderbird/thunderbird-android/commit/a88ae927399d4c51c6537d086e0cea65ed6939e9) | chore(pii-safe): add the pii-safe compiler plugin scaffold project | - | - | - |
 
 </details>
 
