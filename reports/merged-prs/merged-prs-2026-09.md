@@ -48,12 +48,18 @@
 | [#11490](https://github.com/thunderbird/thunderbird-android/pull/11490) | 2026-09-10 | [584ea8c](https://github.com/thunderbird/thunderbird-android/commit/584ea8c291fd3df0684f516e31fd25ddeff0d4e1) | docs(contributing): document Android SDK location for components build | - | - | - |
 | [#11480](https://github.com/thunderbird/thunderbird-android/pull/11480) | 2026-09-11 | [590465f](https://github.com/thunderbird/thunderbird-android/commit/590465f5f99fb097cf86b136f1ee6f221fdfef8d) | refactor(db-repository): extract remote folder queries to dedicated repositories | - | - | - |
 | [#11532](https://github.com/thunderbird/thunderbird-android/pull/11532) | 2026-09-11 | [a88ae92](https://github.com/thunderbird/thunderbird-android/commit/a88ae927399d4c51c6537d086e0cea65ed6939e9) | chore(pii-safe): add the pii-safe compiler plugin scaffold project | - | - | - |
+| [#11481](https://github.com/thunderbird/thunderbird-android/pull/11481) | 2026-09-14 | [d4904c3](https://github.com/thunderbird/thunderbird-android/commit/d4904c3fe879039bc349006d7d666f38d442c837) | refactor(db-repository): extract folder query operations to FolderQueryRepository | - | - | - |
 
 </details>
 
 ## Branch: beta
 
-_No merged PRs in this range._
+### Include
+
+| PR | Merged | SHA | Title | Feature Flag | Beta | Release |
+|---|---|---|---|---|---|---|
+| [#11539](https://github.com/thunderbird/thunderbird-android/pull/11539) | 2026-09-14 | [4b38d45](https://github.com/thunderbird/thunderbird-android/commit/4b38d459bf76865a7d9cef8396e892a552b6cd72) | uplift(beta): fix: utf8 decoding (#11510) | - | [THUNDERBIRD_24_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_24_0b2) | - |
+| [#11541](https://github.com/thunderbird/thunderbird-android/pull/11541) | 2026-09-14 | [6d73e5a](https://github.com/thunderbird/thunderbird-android/commit/6d73e5a96cf1de82a5b88b26476a1cc51314493c) | uplift(beta): fix(settings): prevent HTML signature preview reloads on rotation (#11538) | - | [THUNDERBIRD_24_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_24_0b2) | - |
 
 ## Branch: release
 
