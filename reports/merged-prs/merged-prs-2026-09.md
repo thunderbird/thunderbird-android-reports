@@ -25,6 +25,8 @@
 | [#11514](https://github.com/thunderbird/thunderbird-android/pull/11514) | 2026-09-10 | [ca66ee5](https://github.com/thunderbird/thunderbird-android/commit/ca66ee5fe33dd3a3b7992dd4249c1dad375a5c66) | fix(funding): center last row of contribution items | - | - | - |
 | [#11538](https://github.com/thunderbird/thunderbird-android/pull/11538) | 2026-09-11 | [0f66b47](https://github.com/thunderbird/thunderbird-android/commit/0f66b47ee040f24588401f628362770b883f25dd) | fix(settings): prevent HTML signature preview reloads on rotation | - | - | - |
 | [#11491](https://github.com/thunderbird/thunderbird-android/pull/11491) | 2026-09-11 | [02e7041](https://github.com/thunderbird/thunderbird-android/commit/02e70411c5213bb14f4418819f8cca844323fb32) | fix(ui) changed drawer to follow expected behavior for auto closing | - | - | - |
+| [#11567](https://github.com/thunderbird/thunderbird-android/pull/11567) | 2026-09-16 | [aef8983](https://github.com/thunderbird/thunderbird-android/commit/aef8983d73fa4065d185946752338ecc033f4713) | chore(i18n): translations update from Weblate | - | - | - |
+| [#11536](https://github.com/thunderbird/thunderbird-android/pull/11536) | 2026-09-16 | [a030ddb](https://github.com/thunderbird/thunderbird-android/commit/a030ddbb875d829d4fa9ff23a0f70e5a47e15aa8) | fix: distinguish “from me” and “to me” in message details | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -49,6 +51,12 @@
 | [#11480](https://github.com/thunderbird/thunderbird-android/pull/11480) | 2026-09-11 | [590465f](https://github.com/thunderbird/thunderbird-android/commit/590465f5f99fb097cf86b136f1ee6f221fdfef8d) | refactor(db-repository): extract remote folder queries to dedicated repositories | - | - | - |
 | [#11532](https://github.com/thunderbird/thunderbird-android/pull/11532) | 2026-09-11 | [a88ae92](https://github.com/thunderbird/thunderbird-android/commit/a88ae927399d4c51c6537d086e0cea65ed6939e9) | chore(pii-safe): add the pii-safe compiler plugin scaffold project | - | - | - |
 | [#11481](https://github.com/thunderbird/thunderbird-android/pull/11481) | 2026-09-14 | [d4904c3](https://github.com/thunderbird/thunderbird-android/commit/d4904c3fe879039bc349006d7d666f38d442c837) | refactor(db-repository): extract folder query operations to FolderQueryRepository | - | - | - |
+| [#11563](https://github.com/thunderbird/thunderbird-android/pull/11563) | 2026-09-16 | [c004dc1](https://github.com/thunderbird/thunderbird-android/commit/c004dc16d030c6b0e3b75f394ed63825436e4321) | chore(deps): bump com.diffplug.spotless from 8.10.1 to 8.10.2 | - | - | - |
+| [#11544](https://github.com/thunderbird/thunderbird-android/pull/11544) | 2026-09-16 | [aa73c61](https://github.com/thunderbird/thunderbird-android/commit/aa73c6110917522d0b38325d7370574ad3d5563d) | fix(ci): identify external issue authors by repository access | - | - | - |
+| [#11199](https://github.com/thunderbird/thunderbird-android/pull/11199) | 2026-09-16 | [ee60d30](https://github.com/thunderbird/thunderbird-android/commit/ee60d30f02e7ea13627a8c64d6a70e948680f825) | docs: add app version compatibilty and historic release notes | - | - | - |
+| [#11534](https://github.com/thunderbird/thunderbird-android/pull/11534) | 2026-09-16 | [0d8e2df](https://github.com/thunderbird/thunderbird-android/commit/0d8e2dfcafb4a56a4940a09370f460f4c4272e33) | feat(logging): implement PII-safe toString() IR generation | - | - | - |
+| [#11533](https://github.com/thunderbird/thunderbird-android/pull/11533) | 2026-09-16 | [0d8e2df](https://github.com/thunderbird/thunderbird-android/commit/0d8e2dfcafb4a56a4940a09370f460f4c4272e33) | feat(logging): add FIR implementation to show errors and generate the synthetic toString override | - | - | - |
+| [#11553](https://github.com/thunderbird/thunderbird-android/pull/11553) | 2026-09-16 | [d13578a](https://github.com/thunderbird/thunderbird-android/commit/d13578aa84c8b2e64733505542b58060ddda7a18) | chore(core-architecture): add LegacyEntityIdFactory for legacy ID encoding | - | - | - |
 
 </details>
 
