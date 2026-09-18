@@ -57,6 +57,8 @@
 | [#11534](https://github.com/thunderbird/thunderbird-android/pull/11534) | 2026-09-16 | [0d8e2df](https://github.com/thunderbird/thunderbird-android/commit/0d8e2dfcafb4a56a4940a09370f460f4c4272e33) | feat(logging): implement PII-safe toString() IR generation | - | - | - |
 | [#11533](https://github.com/thunderbird/thunderbird-android/pull/11533) | 2026-09-16 | [0d8e2df](https://github.com/thunderbird/thunderbird-android/commit/0d8e2dfcafb4a56a4940a09370f460f4c4272e33) | feat(logging): add FIR implementation to show errors and generate the synthetic toString override | - | - | - |
 | [#11553](https://github.com/thunderbird/thunderbird-android/pull/11553) | 2026-09-16 | [d13578a](https://github.com/thunderbird/thunderbird-android/commit/d13578aa84c8b2e64733505542b58060ddda7a18) | chore(core-architecture): add LegacyEntityIdFactory for legacy ID encoding | - | - | - |
+| [#11559](https://github.com/thunderbird/thunderbird-android/pull/11559) | 2026-09-17 | [6bb131f](https://github.com/thunderbird/thunderbird-android/commit/6bb131f50301630d82f704d983e20343d078cc3d) | chore(deps): bump com.squareup:kotlinpoet from 2.3.0 to 2.4.0 | - | - | - |
+| [#11556](https://github.com/thunderbird/thunderbird-android/pull/11556) | 2026-09-17 | [99a04f8](https://github.com/thunderbird/thunderbird-android/commit/99a04f8190b3357b0145dd0e7e4298d943274044) | feat(donation-appeal): added preferences and accessors for donation appeal | - | - | - |
 
 </details>
 
