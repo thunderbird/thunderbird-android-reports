@@ -59,6 +59,10 @@
 | [#11553](https://github.com/thunderbird/thunderbird-android/pull/11553) | 2026-09-16 | [d13578a](https://github.com/thunderbird/thunderbird-android/commit/d13578aa84c8b2e64733505542b58060ddda7a18) | chore(core-architecture): add LegacyEntityIdFactory for legacy ID encoding | - | - | - |
 | [#11559](https://github.com/thunderbird/thunderbird-android/pull/11559) | 2026-09-17 | [6bb131f](https://github.com/thunderbird/thunderbird-android/commit/6bb131f50301630d82f704d983e20343d078cc3d) | chore(deps): bump com.squareup:kotlinpoet from 2.3.0 to 2.4.0 | - | - | - |
 | [#11556](https://github.com/thunderbird/thunderbird-android/pull/11556) | 2026-09-17 | [99a04f8](https://github.com/thunderbird/thunderbird-android/commit/99a04f8190b3357b0145dd0e7e4298d943274044) | feat(donation-appeal): added preferences and accessors for donation appeal | - | - | - |
+| [#11560](https://github.com/thunderbird/thunderbird-android/pull/11560) | 2026-09-18 | [df82ad5](https://github.com/thunderbird/thunderbird-android/commit/df82ad55eea18c14a1ec7098b841bc88d753b4be) | chore(deps): bump the actions-deps group across 2 directories with 9 updates | - | - | - |
+| [#11561](https://github.com/thunderbird/thunderbird-android/pull/11561) | 2026-09-18 | [82ba6a1](https://github.com/thunderbird/thunderbird-android/commit/82ba6a1b3bd8c846be6f1e668d65cbb21e6a0ccf) | chore(deps): bump kotlinBom from 2.4.10 to 2.4.20 | - | - | - |
+| [#11562](https://github.com/thunderbird/thunderbird-android/pull/11562) | 2026-09-18 | [917c3c0](https://github.com/thunderbird/thunderbird-android/commit/917c3c0ba50090811082c62b7224b7d78c34f1a6) | chore(deps): bump com.squareup.okio:okio from 3.18.1 to 3.18.2 | - | - | - |
+| [#11582](https://github.com/thunderbird/thunderbird-android/pull/11582) | 2026-09-18 | [c1cd742](https://github.com/thunderbird/thunderbird-android/commit/c1cd7422ea7522b7c45fd3a20a74c3afe32af794) | fix(donation-appeal) Funding settings could not find koin definition for Funding config store. | - | - | - |
 
 </details>
 
@@ -73,5 +77,9 @@
 
 ## Branch: release
 
-_No merged PRs in this range._
+### Include
+
+| PR | Merged | SHA | Title | Feature Flag | Beta | Release |
+|---|---|---|---|---|---|---|
+| [#11540](https://github.com/thunderbird/thunderbird-android/pull/11540) | 2026-09-18 | [41bad08](https://github.com/thunderbird/thunderbird-android/commit/41bad08792786cac5ceaf5a20aa32d21a44d7319) | uplift(release): fix: utf8 decoding (#11510) | - | - | Not released yet |
 
