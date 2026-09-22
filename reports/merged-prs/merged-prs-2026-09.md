@@ -27,6 +27,7 @@
 | [#11491](https://github.com/thunderbird/thunderbird-android/pull/11491) | 2026-09-11 | [02e7041](https://github.com/thunderbird/thunderbird-android/commit/02e70411c5213bb14f4418819f8cca844323fb32) | fix(ui) changed drawer to follow expected behavior for auto closing | - | - | - |
 | [#11567](https://github.com/thunderbird/thunderbird-android/pull/11567) | 2026-09-16 | [aef8983](https://github.com/thunderbird/thunderbird-android/commit/aef8983d73fa4065d185946752338ecc033f4713) | chore(i18n): translations update from Weblate | - | - | - |
 | [#11536](https://github.com/thunderbird/thunderbird-android/pull/11536) | 2026-09-16 | [a030ddb](https://github.com/thunderbird/thunderbird-android/commit/a030ddbb875d829d4fa9ff23a0f70e5a47e15aa8) | fix: distinguish “from me” and “to me” in message details | - | - | - |
+| [#11589](https://github.com/thunderbird/thunderbird-android/pull/11589) | 2026-09-21 | [2beb9e0](https://github.com/thunderbird/thunderbird-android/commit/2beb9e0208d94568e0aee9b027f4b9ad274a3ab7) | fix(funding): avoid reminder activity race | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -63,6 +64,8 @@
 | [#11561](https://github.com/thunderbird/thunderbird-android/pull/11561) | 2026-09-18 | [82ba6a1](https://github.com/thunderbird/thunderbird-android/commit/82ba6a1b3bd8c846be6f1e668d65cbb21e6a0ccf) | chore(deps): bump kotlinBom from 2.4.10 to 2.4.20 | - | - | - |
 | [#11562](https://github.com/thunderbird/thunderbird-android/pull/11562) | 2026-09-18 | [917c3c0](https://github.com/thunderbird/thunderbird-android/commit/917c3c0ba50090811082c62b7224b7d78c34f1a6) | chore(deps): bump com.squareup.okio:okio from 3.18.1 to 3.18.2 | - | - | - |
 | [#11582](https://github.com/thunderbird/thunderbird-android/pull/11582) | 2026-09-18 | [c1cd742](https://github.com/thunderbird/thunderbird-android/commit/c1cd7422ea7522b7c45fd3a20a74c3afe32af794) | fix(donation-appeal) Funding settings could not find koin definition for Funding config store. | - | - | - |
+| [#11571](https://github.com/thunderbird/thunderbird-android/pull/11571) | 2026-09-21 | [8860132](https://github.com/thunderbird/thunderbird-android/commit/8860132c98523b8c0375c4f8c511919e26d7282d) | fix(pii-safe): detect PII in nested type arguments | - | - | - |
+| [#11475](https://github.com/thunderbird/thunderbird-android/pull/11475) | 2026-09-21 | [926d361](https://github.com/thunderbird/thunderbird-android/commit/926d361b7539893dd8b1fbecfc62eebb3223db28) | chore(deps): bump jetbrainsCompose from 1.11.1 to 1.12.0 | - | - | - |
 
 </details>
 
@@ -81,5 +84,5 @@
 
 | PR | Merged | SHA | Title | Feature Flag | Beta | Release |
 |---|---|---|---|---|---|---|
-| [#11540](https://github.com/thunderbird/thunderbird-android/pull/11540) | 2026-09-18 | [41bad08](https://github.com/thunderbird/thunderbird-android/commit/41bad08792786cac5ceaf5a20aa32d21a44d7319) | uplift(release): fix: utf8 decoding (#11510) | - | - | Not released yet |
+| [#11540](https://github.com/thunderbird/thunderbird-android/pull/11540) | 2026-09-18 | [41bad08](https://github.com/thunderbird/thunderbird-android/commit/41bad08792786cac5ceaf5a20aa32d21a44d7319) | uplift(release): fix: utf8 decoding (#11510) | - | - | [THUNDERBIRD_23_1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_23_1) |
 
