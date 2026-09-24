@@ -28,6 +28,7 @@
 | [#11567](https://github.com/thunderbird/thunderbird-android/pull/11567) | 2026-09-16 | [aef8983](https://github.com/thunderbird/thunderbird-android/commit/aef8983d73fa4065d185946752338ecc033f4713) | chore(i18n): translations update from Weblate | - | - | - |
 | [#11536](https://github.com/thunderbird/thunderbird-android/pull/11536) | 2026-09-16 | [a030ddb](https://github.com/thunderbird/thunderbird-android/commit/a030ddbb875d829d4fa9ff23a0f70e5a47e15aa8) | fix: distinguish “from me” and “to me” in message details | - | - | - |
 | [#11589](https://github.com/thunderbird/thunderbird-android/pull/11589) | 2026-09-21 | [2beb9e0](https://github.com/thunderbird/thunderbird-android/commit/2beb9e0208d94568e0aee9b027f4b9ad274a3ab7) | fix(funding): avoid reminder activity race | - | - | - |
+| [#11603](https://github.com/thunderbird/thunderbird-android/pull/11603) | 2026-09-23 | [6480ae1](https://github.com/thunderbird/thunderbird-android/commit/6480ae10fcb8cd4e04ae0fb934a78ed474af7be3) | chore(i18n): translations update from Weblate | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -66,6 +67,12 @@
 | [#11582](https://github.com/thunderbird/thunderbird-android/pull/11582) | 2026-09-18 | [c1cd742](https://github.com/thunderbird/thunderbird-android/commit/c1cd7422ea7522b7c45fd3a20a74c3afe32af794) | fix(donation-appeal) Funding settings could not find koin definition for Funding config store. | - | - | - |
 | [#11571](https://github.com/thunderbird/thunderbird-android/pull/11571) | 2026-09-21 | [8860132](https://github.com/thunderbird/thunderbird-android/commit/8860132c98523b8c0375c4f8c511919e26d7282d) | fix(pii-safe): detect PII in nested type arguments | - | - | - |
 | [#11475](https://github.com/thunderbird/thunderbird-android/pull/11475) | 2026-09-21 | [926d361](https://github.com/thunderbird/thunderbird-android/commit/926d361b7539893dd8b1fbecfc62eebb3223db28) | chore(deps): bump jetbrainsCompose from 1.11.1 to 1.12.0 | - | - | - |
+| [#11597](https://github.com/thunderbird/thunderbird-android/pull/11597) | 2026-09-23 | [e50770e](https://github.com/thunderbird/thunderbird-android/commit/e50770ed64d452b77dfbad04aaf2267e72c8bb6a) | chore(deps): bump com.github.ben-manes.versions from 0.61.0 to 0.63.1 | - | - | - |
+| [#11599](https://github.com/thunderbird/thunderbird-android/pull/11599) | 2026-09-23 | [af06aa5](https://github.com/thunderbird/thunderbird-android/commit/af06aa5442b99fa83a5048fbd2a9be2655dcb60d) | chore(deps): bump com.github.gmazzo.buildconfig from 6.0.10 to 6.1.0 | - | - | - |
+| [#11598](https://github.com/thunderbird/thunderbird-android/pull/11598) | 2026-09-23 | [15c4fa7](https://github.com/thunderbird/thunderbird-android/commit/15c4fa7925b0119117279aa9910b88d986dc61b4) | chore(deps): bump mime4j from 0.8.14 to 0.8.15 | - | - | - |
+| [#11606](https://github.com/thunderbird/thunderbird-android/pull/11606) | 2026-09-23 | [09e74f3](https://github.com/thunderbird/thunderbird-android/commit/09e74f3f50f0ff4c3a90b32e42c1559a276c0f18) | feat(core-architecture): add AsyncDataMapper interface for domain-DTO conversion | - | - | - |
+| [#11600](https://github.com/thunderbird/thunderbird-android/pull/11600) | 2026-09-23 | [61c0802](https://github.com/thunderbird/thunderbird-android/commit/61c0802e9377a292ccf1bf1716f557d17fa9f944) | chore(deps): bump com.google.devtools.ksp from 2.3.11 to 2.3.12 | - | - | - |
+| [#11595](https://github.com/thunderbird/thunderbird-android/pull/11595) | 2026-09-23 | [f248608](https://github.com/thunderbird/thunderbird-android/commit/f248608b191e5cb4618ce1df0f8e1f7355caed0d) | chore(deps): bump org.robolectric:robolectric from 4.17-beta-4 to 4.17 | - | - | - |
 
 </details>
 
