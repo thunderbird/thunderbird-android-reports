@@ -29,6 +29,9 @@
 | [#11536](https://github.com/thunderbird/thunderbird-android/pull/11536) | 2026-09-16 | [a030ddb](https://github.com/thunderbird/thunderbird-android/commit/a030ddbb875d829d4fa9ff23a0f70e5a47e15aa8) | fix: distinguish “from me” and “to me” in message details | - | - | - |
 | [#11589](https://github.com/thunderbird/thunderbird-android/pull/11589) | 2026-09-21 | [2beb9e0](https://github.com/thunderbird/thunderbird-android/commit/2beb9e0208d94568e0aee9b027f4b9ad274a3ab7) | fix(funding): avoid reminder activity race | - | - | - |
 | [#11603](https://github.com/thunderbird/thunderbird-android/pull/11603) | 2026-09-23 | [6480ae1](https://github.com/thunderbird/thunderbird-android/commit/6480ae10fcb8cd4e04ae0fb934a78ed474af7be3) | chore(i18n): translations update from Weblate | - | - | - |
+| [#11564](https://github.com/thunderbird/thunderbird-android/pull/11564) | 2026-09-24 | [8cf6398](https://github.com/thunderbird/thunderbird-android/commit/8cf639851e7b9b7b33caf6f0c05f72e03793d7ca) | fix: html signature preview | - | - | - |
+| [#11569](https://github.com/thunderbird/thunderbird-android/pull/11569) | 2026-09-24 | [79aff88](https://github.com/thunderbird/thunderbird-android/commit/79aff88dd76c54e11f91a6aecd9c0c054454eb25) | fix: handle missing contacts app | - | - | - |
+| [#11583](https://github.com/thunderbird/thunderbird-android/pull/11583) | 2026-09-24 | [ef4f388](https://github.com/thunderbird/thunderbird-android/commit/ef4f388cb581d1701bc72904f6d514d1640e029a) | feat(donation-appeal): Create the logic to display the donation appeal | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -73,6 +76,7 @@
 | [#11606](https://github.com/thunderbird/thunderbird-android/pull/11606) | 2026-09-23 | [09e74f3](https://github.com/thunderbird/thunderbird-android/commit/09e74f3f50f0ff4c3a90b32e42c1559a276c0f18) | feat(core-architecture): add AsyncDataMapper interface for domain-DTO conversion | - | - | - |
 | [#11600](https://github.com/thunderbird/thunderbird-android/pull/11600) | 2026-09-23 | [61c0802](https://github.com/thunderbird/thunderbird-android/commit/61c0802e9377a292ccf1bf1716f557d17fa9f944) | chore(deps): bump com.google.devtools.ksp from 2.3.11 to 2.3.12 | - | - | - |
 | [#11595](https://github.com/thunderbird/thunderbird-android/pull/11595) | 2026-09-23 | [f248608](https://github.com/thunderbird/thunderbird-android/commit/f248608b191e5cb4618ce1df0f8e1f7355caed0d) | chore(deps): bump org.robolectric:robolectric from 4.17-beta-4 to 4.17 | - | - | - |
+| [#11626](https://github.com/thunderbird/thunderbird-android/pull/11626) | 2026-09-24 | [a3175bf](https://github.com/thunderbird/thunderbird-android/commit/a3175bffe668b81242406b32899371608676ebbb) | fix(donation-appeal): Fix Donation Appeal Timing with Nullable FundingConfig Defaults | - | - | - |
 
 </details>
 
