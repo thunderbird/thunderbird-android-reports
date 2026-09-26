@@ -32,6 +32,7 @@
 | [#11564](https://github.com/thunderbird/thunderbird-android/pull/11564) | 2026-09-24 | [8cf6398](https://github.com/thunderbird/thunderbird-android/commit/8cf639851e7b9b7b33caf6f0c05f72e03793d7ca) | fix: html signature preview | - | - | - |
 | [#11569](https://github.com/thunderbird/thunderbird-android/pull/11569) | 2026-09-24 | [79aff88](https://github.com/thunderbird/thunderbird-android/commit/79aff88dd76c54e11f91a6aecd9c0c054454eb25) | fix: handle missing contacts app | - | - | - |
 | [#11583](https://github.com/thunderbird/thunderbird-android/pull/11583) | 2026-09-24 | [ef4f388](https://github.com/thunderbird/thunderbird-android/commit/ef4f388cb581d1701bc72904f6d514d1640e029a) | feat(donation-appeal): Create the logic to display the donation appeal | - | - | - |
+| [#11629](https://github.com/thunderbird/thunderbird-android/pull/11629) | 2026-09-25 | [04f2de3](https://github.com/thunderbird/thunderbird-android/commit/04f2de30c2f95655a5e87040c202af428bd310a2) | feat(donation-appeal): adds the new compose view for donation appeal | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -77,6 +78,9 @@
 | [#11600](https://github.com/thunderbird/thunderbird-android/pull/11600) | 2026-09-23 | [61c0802](https://github.com/thunderbird/thunderbird-android/commit/61c0802e9377a292ccf1bf1716f557d17fa9f944) | chore(deps): bump com.google.devtools.ksp from 2.3.11 to 2.3.12 | - | - | - |
 | [#11595](https://github.com/thunderbird/thunderbird-android/pull/11595) | 2026-09-23 | [f248608](https://github.com/thunderbird/thunderbird-android/commit/f248608b191e5cb4618ce1df0f8e1f7355caed0d) | chore(deps): bump org.robolectric:robolectric from 4.17-beta-4 to 4.17 | - | - | - |
 | [#11626](https://github.com/thunderbird/thunderbird-android/pull/11626) | 2026-09-24 | [a3175bf](https://github.com/thunderbird/thunderbird-android/commit/a3175bffe668b81242406b32899371608676ebbb) | fix(donation-appeal): Fix Donation Appeal Timing with Nullable FundingConfig Defaults | - | - | - |
+| [#11630](https://github.com/thunderbird/thunderbird-android/pull/11630) | 2026-09-25 | [36c97c1](https://github.com/thunderbird/thunderbird-android/commit/36c97c19a334d059db0ff717921c34c6419c7ca5) | feat(donation-appeal): increments donation appeal counter for existing users | - | - | - |
+| [#11632](https://github.com/thunderbird/thunderbird-android/pull/11632) | 2026-09-25 | [a3a1ebf](https://github.com/thunderbird/thunderbird-android/commit/a3a1ebff335c5bd106ae3e1ef70316ad38bc9fe7) | feat(donation-appeal): remove K-9 donation appeal | - | - | - |
+| [#11635](https://github.com/thunderbird/thunderbird-android/pull/11635) | 2026-09-25 | [a86607c](https://github.com/thunderbird/thunderbird-android/commit/a86607cb8dcc5ddaf53436a2f78b32d9f735e430) | fix(donation-appeal): fix crash from config store name collision | - | - | - |
 
 </details>
 
