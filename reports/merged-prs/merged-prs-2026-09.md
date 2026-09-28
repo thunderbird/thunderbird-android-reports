@@ -33,6 +33,7 @@
 | [#11569](https://github.com/thunderbird/thunderbird-android/pull/11569) | 2026-09-24 | [79aff88](https://github.com/thunderbird/thunderbird-android/commit/79aff88dd76c54e11f91a6aecd9c0c054454eb25) | fix: handle missing contacts app | - | - | - |
 | [#11583](https://github.com/thunderbird/thunderbird-android/pull/11583) | 2026-09-24 | [ef4f388](https://github.com/thunderbird/thunderbird-android/commit/ef4f388cb581d1701bc72904f6d514d1640e029a) | feat(donation-appeal): Create the logic to display the donation appeal | - | - | - |
 | [#11629](https://github.com/thunderbird/thunderbird-android/pull/11629) | 2026-09-25 | [04f2de3](https://github.com/thunderbird/thunderbird-android/commit/04f2de30c2f95655a5e87040c202af428bd310a2) | feat(donation-appeal): adds the new compose view for donation appeal | - | - | - |
+| [#11594](https://github.com/thunderbird/thunderbird-android/pull/11594) | 2026-09-27 | [0cffe00](https://github.com/thunderbird/thunderbird-android/commit/0cffe006be790a4e75659d5a4356d1f17947a427) | fix: prevent sort indicator from duplicating in message list overflow menu | - | - | - |
 
 <details>
 <summary>Excluded</summary>
