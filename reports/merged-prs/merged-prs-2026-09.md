@@ -36,6 +36,7 @@
 | [#11594](https://github.com/thunderbird/thunderbird-android/pull/11594) | 2026-09-27 | [0cffe00](https://github.com/thunderbird/thunderbird-android/commit/0cffe006be790a4e75659d5a4356d1f17947a427) | fix: prevent sort indicator from duplicating in message list overflow menu | - | - | - |
 | [#11558](https://github.com/thunderbird/thunderbird-android/pull/11558) | 2026-09-28 | [b88f214](https://github.com/thunderbird/thunderbird-android/commit/b88f214a2649a58e72bdf1887415ff95178846ae) | fix(message-composer): fetch complete message when editing a draft | - | - | - |
 | [#11641](https://github.com/thunderbird/thunderbird-android/pull/11641) | 2026-09-28 | [c2dc4df](https://github.com/thunderbird/thunderbird-android/commit/c2dc4df4cd7aa4b315581d642aeab1bae08578dc) | feat(donation-appeal): Enable Donation Appeal for FOSS Builds | - | - | - |
+| [#11587](https://github.com/thunderbird/thunderbird-android/pull/11587) | 2026-09-29 | [686ce7f](https://github.com/thunderbird/thunderbird-android/commit/686ce7fb4af3a3849a1dc94f0aef88f346bd5527) | fix(notification): avoid race condition on notification actions | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -90,6 +91,13 @@
 | [#11642](https://github.com/thunderbird/thunderbird-android/pull/11642) | 2026-09-28 | [aff598c](https://github.com/thunderbird/thunderbird-android/commit/aff598c0309259751707e9bdb7beab4ee1caee6b) | chore(welcome): replace MZLA Technologies with Thunderbird Technologies Corporation | - | - | - |
 | [#11636](https://github.com/thunderbird/thunderbird-android/pull/11636) | 2026-09-28 | [358014f](https://github.com/thunderbird/thunderbird-android/commit/358014ffd051dd894970221c697cf91d28937683) | refactor(feature-flag): move Json configuration to Koin module | - | - | - |
 | [#11638](https://github.com/thunderbird/thunderbird-android/pull/11638) | 2026-09-28 | [d7c50bb](https://github.com/thunderbird/thunderbird-android/commit/d7c50bbb4dd299d93aa0838b78a9c590fa286eb9) | refactor(feature-flag): make catalog data source loading suspend-based | - | - | - |
+| [#11643](https://github.com/thunderbird/thunderbird-android/pull/11643) | 2026-09-29 | [ead9f98](https://github.com/thunderbird/thunderbird-android/commit/ead9f984da873948ec5348f05bceef0648fb2982) | refactor: prepare legacy account changes | - | - | - |
+| [#11617](https://github.com/thunderbird/thunderbird-android/pull/11617) | 2026-09-29 | [00cd8d9](https://github.com/thunderbird/thunderbird-android/commit/00cd8d9dc8185e1cdb3d725e9d74b2d11025f571) | feat: add global database migration state module | - | - | - |
+| [#11637](https://github.com/thunderbird/thunderbird-android/pull/11637) | 2026-09-29 | [0e1137f](https://github.com/thunderbird/thunderbird-android/commit/0e1137f45d19ff4b730d39088b9e8e9bf9062db6) | feat(feature-flag): add remote feature flag URL configuration support | - | - | - |
+| [#11650](https://github.com/thunderbird/thunderbird-android/pull/11650) | 2026-09-29 | [127ee40](https://github.com/thunderbird/thunderbird-android/commit/127ee4098a17099b1ee9089a3c6daf0ba330580b) | chore(deps): bump ktor from 3.5.2 to 3.6.0 | - | - | - |
+| [#11653](https://github.com/thunderbird/thunderbird-android/pull/11653) | 2026-09-29 | [774624a](https://github.com/thunderbird/thunderbird-android/commit/774624aadbfa8199fc9730173459d3996e6c5320) | chore(deps): bump com.github.gmazzo.buildconfig from 6.1.0 to 6.1.1 | - | - | - |
+| [#11652](https://github.com/thunderbird/thunderbird-android/pull/11652) | 2026-09-29 | [6987473](https://github.com/thunderbird/thunderbird-android/commit/6987473a386f8a3a29c48845ef47b11f8912b48a) | chore(deps): bump dev.zacsweers.kctfork:core from 0.13.0 to 0.14.0 | - | - | - |
+| [#11649](https://github.com/thunderbird/thunderbird-android/pull/11649) | 2026-09-30 | [cfb09a9](https://github.com/thunderbird/thunderbird-android/commit/cfb09a9799a38bfc29ef6ff3105008f25a9b9ca5) | chore(deps): bump jetbrainsCompose from 1.12.0 to 1.12.1 | - | - | - |
 
 </details>
 
