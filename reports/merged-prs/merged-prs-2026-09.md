@@ -37,6 +37,7 @@
 | [#11558](https://github.com/thunderbird/thunderbird-android/pull/11558) | 2026-09-28 | [b88f214](https://github.com/thunderbird/thunderbird-android/commit/b88f214a2649a58e72bdf1887415ff95178846ae) | fix(message-composer): fetch complete message when editing a draft | - | - | - |
 | [#11641](https://github.com/thunderbird/thunderbird-android/pull/11641) | 2026-09-28 | [c2dc4df](https://github.com/thunderbird/thunderbird-android/commit/c2dc4df4cd7aa4b315581d642aeab1bae08578dc) | feat(donation-appeal): Enable Donation Appeal for FOSS Builds | - | - | - |
 | [#11587](https://github.com/thunderbird/thunderbird-android/pull/11587) | 2026-09-29 | [686ce7f](https://github.com/thunderbird/thunderbird-android/commit/686ce7fb4af3a3849a1dc94f0aef88f346bd5527) | fix(notification): avoid race condition on notification actions | - | - | - |
+| [#11655](https://github.com/thunderbird/thunderbird-android/pull/11655) | 2026-09-30 | [b0e24c8](https://github.com/thunderbird/thunderbird-android/commit/b0e24c8fc34db63d8e4ec118f77132ba5f6cd083) | chore(i18n): translations update from Weblate | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -98,6 +99,8 @@
 | [#11653](https://github.com/thunderbird/thunderbird-android/pull/11653) | 2026-09-29 | [774624a](https://github.com/thunderbird/thunderbird-android/commit/774624aadbfa8199fc9730173459d3996e6c5320) | chore(deps): bump com.github.gmazzo.buildconfig from 6.1.0 to 6.1.1 | - | - | - |
 | [#11652](https://github.com/thunderbird/thunderbird-android/pull/11652) | 2026-09-29 | [6987473](https://github.com/thunderbird/thunderbird-android/commit/6987473a386f8a3a29c48845ef47b11f8912b48a) | chore(deps): bump dev.zacsweers.kctfork:core from 0.13.0 to 0.14.0 | - | - | - |
 | [#11649](https://github.com/thunderbird/thunderbird-android/pull/11649) | 2026-09-30 | [cfb09a9](https://github.com/thunderbird/thunderbird-android/commit/cfb09a9799a38bfc29ef6ff3105008f25a9b9ca5) | chore(deps): bump jetbrainsCompose from 1.12.0 to 1.12.1 | - | - | - |
+| [#11651](https://github.com/thunderbird/thunderbird-android/pull/11651) | 2026-09-30 | [32f2438](https://github.com/thunderbird/thunderbird-android/commit/32f2438050fac7ed8d9f19c9fa4be2fa4bd20b26) | chore(deps): bump com.github.ben-manes.versions from 0.63.1 to 0.64.0 | - | - | - |
+| [#11596](https://github.com/thunderbird/thunderbird-android/pull/11596) | 2026-09-30 | [df2d383](https://github.com/thunderbird/thunderbird-android/commit/df2d383dc1e8d6bd732af32ff69a8a45f34ca7b1) | chore(deps): bump the actions-deps group across 2 directories with 4 updates | - | - | - |
 
 </details>
 
