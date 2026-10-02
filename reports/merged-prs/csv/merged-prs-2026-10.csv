@@ -1,1 +1,6 @@
 Branch,Number,Merged,Author,Title,Report,Beta,Release,SHA,URL,Comment
+"main","11579","2026-10-01","wmontwe","feat: add app composition module","Exclude","-","Not released yet","-","0927fce222e2e84aa15b488714637ad1a5981405","https://github.com/thunderbird/thunderbird-android/pull/11579",""
+"main","11645","2026-10-01","rafaeltonholo","feat(feature-flag): add remote catalog data source and provider","Include","-","Not released yet","-","e06bdc936896184c185863fc2daa5dd90f7b2df5","https://github.com/thunderbird/thunderbird-android/pull/11645",""
+"main","11658","2026-10-01","rafaeltonholo","fix: update dependency tracking files after adding remote catalog dependencies","Exclude","-","Not released yet","-","4456911f6fe6cd9979a614ac32a4368744b8511a","https://github.com/thunderbird/thunderbird-android/pull/11658",""
+"main","11665","2026-10-01","stephenking314","Bump versionName to 26.0","Review","-","-","-","63eb38ef558c85642fbb25e47728973aeecdc41b","https://github.com/thunderbird/thunderbird-android/pull/11665",""
+"main","11648","2026-10-02","wmontwe","feat(account): decouple account usage from legacy account part 1","Exclude","-","-","-","83282dcb4052fb714b49d7d0b11b19ed312a1673","https://github.com/thunderbird/thunderbird-android/pull/11648",""
