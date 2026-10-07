@@ -12,6 +12,7 @@
 |---|---|---|---|---|---|---|
 | [#11645](https://github.com/thunderbird/thunderbird-android/pull/11645) | 2026-10-01 | [e06bdc9](https://github.com/thunderbird/thunderbird-android/commit/e06bdc936896184c185863fc2daa5dd90f7b2df5) | feat(feature-flag): add remote catalog data source and provider | - | [THUNDERBIRD_25_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_25_0b1) | - |
 | [#11535](https://github.com/thunderbird/thunderbird-android/pull/11535) | 2026-10-05 | [34ca0e4](https://github.com/thunderbird/thunderbird-android/commit/34ca0e4686f919b22c86f06016beeb7642a2484b) | feat(settings) default push for inbox | push_enabled_on_inbox_by_default | - | - |
+| [#11693](https://github.com/thunderbird/thunderbird-android/pull/11693) | 2026-10-06 | [9f785a0](https://github.com/thunderbird/thunderbird-android/commit/9f785a0d17027e04d1812f3a61c72a29030784dd) | feat(feature-flag): introduce the remote feature flag screen | - | - | - |
 
 ### Review
 
@@ -36,6 +37,9 @@
 | [#11672](https://github.com/thunderbird/thunderbird-android/pull/11672) | 2026-10-05 | [f89572c](https://github.com/thunderbird/thunderbird-android/commit/f89572cd68070df989d055690598d9074251f7c4) | chore(deps): bump ch.qos.logback:logback-classic from 1.6.3 to 1.6.4 | - | - | - |
 | [#11673](https://github.com/thunderbird/thunderbird-android/pull/11673) | 2026-10-05 | [4b2d90d](https://github.com/thunderbird/thunderbird-android/commit/4b2d90d2098cf0b0652fcfce3f4071179f29db13) | chore(deps): bump org.mockito:mockito-core from 5.23.0 to 5.24.0 | - | - | - |
 | [#11607](https://github.com/thunderbird/thunderbird-android/pull/11607) | 2026-10-05 | [f17da5b](https://github.com/thunderbird/thunderbird-android/commit/f17da5b72feeff653d72ab897d6945beff2d0064) | feat(db-repository): add DefaultMessageDataMapper for legacy-to-domain message conversion | - | - | - |
+| [#11608](https://github.com/thunderbird/thunderbird-android/pull/11608) | 2026-10-06 | [dead22e](https://github.com/thunderbird/thunderbird-android/commit/dead22e7aa7ea71e0a62b1cbd7b2b2fb214e1aae) | feat(db-repository): add MessageQueryRepository for querying messages by criteria | - | - | - |
+| [#11676](https://github.com/thunderbird/thunderbird-android/pull/11676) | 2026-10-06 | [8ef3566](https://github.com/thunderbird/thunderbird-android/commit/8ef35669da4ec7aa1c1c1ecec78979eb6bd11228) | chore(deps): bump the actions-deps group across 1 directory with 3 updates | - | - | - |
+| [#11698](https://github.com/thunderbird/thunderbird-android/pull/11698) | 2026-10-06 | [74e56ad](https://github.com/thunderbird/thunderbird-android/commit/74e56adc3a8c9ace90efd9d6b2c4d79c0ff96701) | chore(deps): bump com.github.gmazzo.buildconfig from 6.1.1 to 6.1.2 | - | - | - |
 
 </details>
 
