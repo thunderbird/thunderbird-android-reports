@@ -13,6 +13,9 @@
 | [#11645](https://github.com/thunderbird/thunderbird-android/pull/11645) | 2026-10-01 | [e06bdc9](https://github.com/thunderbird/thunderbird-android/commit/e06bdc936896184c185863fc2daa5dd90f7b2df5) | feat(feature-flag): add remote catalog data source and provider | - | [THUNDERBIRD_25_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_25_0b1) | - |
 | [#11535](https://github.com/thunderbird/thunderbird-android/pull/11535) | 2026-10-05 | [34ca0e4](https://github.com/thunderbird/thunderbird-android/commit/34ca0e4686f919b22c86f06016beeb7642a2484b) | feat(settings) default push for inbox | push_enabled_on_inbox_by_default | - | - |
 | [#11693](https://github.com/thunderbird/thunderbird-android/pull/11693) | 2026-10-06 | [9f785a0](https://github.com/thunderbird/thunderbird-android/commit/9f785a0d17027e04d1812f3a61c72a29030784dd) | feat(feature-flag): introduce the remote feature flag screen | - | - | - |
+| [#11666](https://github.com/thunderbird/thunderbird-android/pull/11666) | 2026-10-07 | [0325e02](https://github.com/thunderbird/thunderbird-android/commit/0325e02189091e6775527582712b2acbe7d6cd68) | feat(notification-settings): Adds Default Push to QR Code Imports | push_enabled_on_inbox_by_default | - | - |
+| [#11701](https://github.com/thunderbird/thunderbird-android/pull/11701) | 2026-10-08 | [ee2d9ab](https://github.com/thunderbird/thunderbird-android/commit/ee2d9aba86041a00cb87b8dcbb7c0082f182bd17) | chore(i18n): translations update from Weblate | - | - | - |
+| [#11699](https://github.com/thunderbird/thunderbird-android/pull/11699) | 2026-10-08 | [e3fb7f3](https://github.com/thunderbird/thunderbird-android/commit/e3fb7f3341827eb756327e26198f97b7c3f1821e) | feat(notification-settings): Moves Manage Folders to Account Settings Folders | - | - | - |
 
 ### Review
 
@@ -40,6 +43,9 @@
 | [#11608](https://github.com/thunderbird/thunderbird-android/pull/11608) | 2026-10-06 | [dead22e](https://github.com/thunderbird/thunderbird-android/commit/dead22e7aa7ea71e0a62b1cbd7b2b2fb214e1aae) | feat(db-repository): add MessageQueryRepository for querying messages by criteria | - | - | - |
 | [#11676](https://github.com/thunderbird/thunderbird-android/pull/11676) | 2026-10-06 | [8ef3566](https://github.com/thunderbird/thunderbird-android/commit/8ef35669da4ec7aa1c1c1ecec78979eb6bd11228) | chore(deps): bump the actions-deps group across 1 directory with 3 updates | - | - | - |
 | [#11698](https://github.com/thunderbird/thunderbird-android/pull/11698) | 2026-10-06 | [74e56ad](https://github.com/thunderbird/thunderbird-android/commit/74e56adc3a8c9ace90efd9d6b2c4d79c0ff96701) | chore(deps): bump com.github.gmazzo.buildconfig from 6.1.1 to 6.1.2 | - | - | - |
+| [#11696](https://github.com/thunderbird/thunderbird-android/pull/11696) | 2026-10-07 | [469955f](https://github.com/thunderbird/thunderbird-android/commit/469955f1ca654bb1f26bc5b4f7165a81e9c03d8e) | chore(deps): bump org.jetbrains.kotlinx.kover from 0.9.9 to 0.9.10 | - | - | - |
+| [#11697](https://github.com/thunderbird/thunderbird-android/pull/11697) | 2026-10-07 | [a455107](https://github.com/thunderbird/thunderbird-android/commit/a45510772bc8c7a3b06e834a3c819f6f79a88418) | chore(deps): bump com.diffplug.spotless from 8.10.2 to 8.10.3 | - | - | - |
+| [#11700](https://github.com/thunderbird/thunderbird-android/pull/11700) | 2026-10-07 | [c010b7a](https://github.com/thunderbird/thunderbird-android/commit/c010b7a4ec3f21377e8340906c80a222919fbcb4) | fix: don't crash when editing a discovered config with unsupported protocol | - | - | - |
 
 </details>
 
