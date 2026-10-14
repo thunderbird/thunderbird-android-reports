@@ -16,6 +16,7 @@
 | [#11666](https://github.com/thunderbird/thunderbird-android/pull/11666) | 2026-10-07 | [0325e02](https://github.com/thunderbird/thunderbird-android/commit/0325e02189091e6775527582712b2acbe7d6cd68) | feat(notification-settings): Adds Default Push to QR Code Imports | push_enabled_on_inbox_by_default | - | - |
 | [#11701](https://github.com/thunderbird/thunderbird-android/pull/11701) | 2026-10-08 | [ee2d9ab](https://github.com/thunderbird/thunderbird-android/commit/ee2d9aba86041a00cb87b8dcbb7c0082f182bd17) | chore(i18n): translations update from Weblate | - | - | - |
 | [#11699](https://github.com/thunderbird/thunderbird-android/pull/11699) | 2026-10-08 | [e3fb7f3](https://github.com/thunderbird/thunderbird-android/commit/e3fb7f3341827eb756327e26198f97b7c3f1821e) | feat(notification-settings): Moves Manage Folders to Account Settings Folders | - | - | - |
+| [#11721](https://github.com/thunderbird/thunderbird-android/pull/11721) | 2026-10-13 | [016c18f](https://github.com/thunderbird/thunderbird-android/commit/016c18fd27c2d7a613fe8bec1834edda5dae67ef) | fix(message-composer): layout crash when rotating screen | - | - | - |
 
 ### Review
 
@@ -46,6 +47,7 @@
 | [#11696](https://github.com/thunderbird/thunderbird-android/pull/11696) | 2026-10-07 | [469955f](https://github.com/thunderbird/thunderbird-android/commit/469955f1ca654bb1f26bc5b4f7165a81e9c03d8e) | chore(deps): bump org.jetbrains.kotlinx.kover from 0.9.9 to 0.9.10 | - | - | - |
 | [#11697](https://github.com/thunderbird/thunderbird-android/pull/11697) | 2026-10-07 | [a455107](https://github.com/thunderbird/thunderbird-android/commit/a45510772bc8c7a3b06e834a3c819f6f79a88418) | chore(deps): bump com.diffplug.spotless from 8.10.2 to 8.10.3 | - | - | - |
 | [#11700](https://github.com/thunderbird/thunderbird-android/pull/11700) | 2026-10-07 | [c010b7a](https://github.com/thunderbird/thunderbird-android/commit/c010b7a4ec3f21377e8340906c80a222919fbcb4) | fix: don't crash when editing a discovered config with unsupported protocol | - | - | - |
+| [#11689](https://github.com/thunderbird/thunderbird-android/pull/11689) | 2026-10-13 | [b1bb931](https://github.com/thunderbird/thunderbird-android/commit/b1bb9316b99694821c74788c55aea9f727ed9791) | feat: main changelog json uplift | - | - | - |
 
 </details>
 
