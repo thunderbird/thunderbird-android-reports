@@ -19,6 +19,10 @@
 | [#11721](https://github.com/thunderbird/thunderbird-android/pull/11721) | 2026-10-13 | [016c18f](https://github.com/thunderbird/thunderbird-android/commit/016c18fd27c2d7a613fe8bec1834edda5dae67ef) | fix(message-composer): layout crash when rotating screen | - | - | - |
 | [#11729](https://github.com/thunderbird/thunderbird-android/pull/11729) | 2026-10-14 | [4df1861](https://github.com/thunderbird/thunderbird-android/commit/4df1861c1b6ee270729df089907b74be3874e526) | chore(i18n): translations update from Weblate | - | - | - |
 | [#11584](https://github.com/thunderbird/thunderbird-android/pull/11584) | 2026-10-14 | [304074f](https://github.com/thunderbird/thunderbird-android/commit/304074faf48c64bf8dfef35fd58554dc500f044a) | feat: modernize SendingMailSettings | - | - | - |
+| [#11741](https://github.com/thunderbird/thunderbird-android/pull/11741) | 2026-10-15 | [80436f8](https://github.com/thunderbird/thunderbird-android/commit/80436f866eacd6ebf0d5c2451d8a386600cf7569) | feat: support enabling and disabling Switch and Text composables | - | - | - |
+| [#11730](https://github.com/thunderbird/thunderbird-android/pull/11730) | 2026-10-15 | [055343e](https://github.com/thunderbird/thunderbird-android/commit/055343ec90fdbea603677356ee1f6163e11fd012) | fix(ui): change ic_remote_feature_flag drawable to use theme tint | - | - | - |
+| [#11743](https://github.com/thunderbird/thunderbird-android/pull/11743) | 2026-10-15 | [faaab4d](https://github.com/thunderbird/thunderbird-android/commit/faaab4d20446447783ebadfa1942965af0bcb452) | chore(platform): drop support for android 6 | - | - | - |
+| [#11708](https://github.com/thunderbird/thunderbird-android/pull/11708) | 2026-10-15 | [e010342](https://github.com/thunderbird/thunderbird-android/commit/e010342d2770bc0f1d25e57abf77ff9ed638f737) | feat(account): decouple account management and storage from legacy Preferences | - | - | - |
 
 ### Review
 
@@ -51,6 +55,12 @@
 | [#11700](https://github.com/thunderbird/thunderbird-android/pull/11700) | 2026-10-07 | [c010b7a](https://github.com/thunderbird/thunderbird-android/commit/c010b7a4ec3f21377e8340906c80a222919fbcb4) | fix: don't crash when editing a discovered config with unsupported protocol | - | - | - |
 | [#11689](https://github.com/thunderbird/thunderbird-android/pull/11689) | 2026-10-13 | [b1bb931](https://github.com/thunderbird/thunderbird-android/commit/b1bb9316b99694821c74788c55aea9f727ed9791) | feat: main changelog json uplift | - | - | - |
 | [#11668](https://github.com/thunderbird/thunderbird-android/pull/11668) | 2026-10-14 | [bce2a2f](https://github.com/thunderbird/thunderbird-android/commit/bce2a2f66b8e4e1bd0b822342cb68c28a4c1cd9d) | feat: replace logging by tmc component | - | - | - |
+| [#11736](https://github.com/thunderbird/thunderbird-android/pull/11736) | 2026-10-15 | [253668c](https://github.com/thunderbird/thunderbird-android/commit/253668cb71c340e862fc05463824ded50d89424b) | chore(deps): bump com.github.ben-manes.versions from 0.64.0 to 0.65.0 | - | - | - |
+| [#11739](https://github.com/thunderbird/thunderbird-android/pull/11739) | 2026-10-15 | [28a1dae](https://github.com/thunderbird/thunderbird-android/commit/28a1dae08329e98b71dd2c1b99797ccf71f1b9a8) | chore(deps): bump org.jetbrains.kotlinx.kover from 0.9.10 to 0.9.11 | - | - | - |
+| [#11737](https://github.com/thunderbird/thunderbird-android/pull/11737) | 2026-10-15 | [dd68387](https://github.com/thunderbird/thunderbird-android/commit/dd68387866296c305a5bf4ffd8135cc7d762fbce) | chore(deps): bump the actions-deps group across 1 directory with 2 updates | - | - | - |
+| [#11733](https://github.com/thunderbird/thunderbird-android/pull/11733) | 2026-10-15 | [cf54b1f](https://github.com/thunderbird/thunderbird-android/commit/cf54b1fdb0eae51b2311f46f27439da00f01918b) | chore(deps): bump org.apache.httpcomponents.client5:httpclient5 from 5.6.4 to 5.6.5 | - | - | - |
+| [#11738](https://github.com/thunderbird/thunderbird-android/pull/11738) | 2026-10-15 | [5f03d1b](https://github.com/thunderbird/thunderbird-android/commit/5f03d1b13ecaaa56b224a5adf82ced5e6033a47e) | chore(deps): bump ch.qos.logback:logback-classic from 1.6.4 to 1.6.5 | - | - | - |
+| [#11734](https://github.com/thunderbird/thunderbird-android/pull/11734) | 2026-10-15 | [084f9c1](https://github.com/thunderbird/thunderbird-android/commit/084f9c184388e0f939b7fe202d5f89728664a44f) | chore(deps): bump jetbrainsComposeMaterial3Adaptive from 1.2.0 to 1.3.0 | - | - | - |
 
 </details>
 
