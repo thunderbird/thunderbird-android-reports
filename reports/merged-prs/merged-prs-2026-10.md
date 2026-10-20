@@ -61,6 +61,7 @@
 | [#11733](https://github.com/thunderbird/thunderbird-android/pull/11733) | 2026-10-15 | [cf54b1f](https://github.com/thunderbird/thunderbird-android/commit/cf54b1fdb0eae51b2311f46f27439da00f01918b) | chore(deps): bump org.apache.httpcomponents.client5:httpclient5 from 5.6.4 to 5.6.5 | - | - | - |
 | [#11738](https://github.com/thunderbird/thunderbird-android/pull/11738) | 2026-10-15 | [5f03d1b](https://github.com/thunderbird/thunderbird-android/commit/5f03d1b13ecaaa56b224a5adf82ced5e6033a47e) | chore(deps): bump ch.qos.logback:logback-classic from 1.6.4 to 1.6.5 | - | - | - |
 | [#11734](https://github.com/thunderbird/thunderbird-android/pull/11734) | 2026-10-15 | [084f9c1](https://github.com/thunderbird/thunderbird-android/commit/084f9c184388e0f939b7fe202d5f89728664a44f) | chore(deps): bump jetbrainsComposeMaterial3Adaptive from 1.2.0 to 1.3.0 | - | - | - |
+| [#11735](https://github.com/thunderbird/thunderbird-android/pull/11735) | 2026-10-19 | [978dedb](https://github.com/thunderbird/thunderbird-android/commit/978dedbf354d015ad6e0f4875bf1e395f96366ce) | chore(deps): bump com.networknt:json-schema-validator from 3.0.7 to 3.0.8 | - | - | - |
 
 </details>
 
@@ -72,6 +73,8 @@
 | PR | Merged | SHA | Title | Feature Flag | Beta | Release |
 |---|---|---|---|---|---|---|
 | [#11688](https://github.com/thunderbird/thunderbird-android/pull/11688) | 2026-10-05 | [c7e0b62](https://github.com/thunderbird/thunderbird-android/commit/c7e0b6226ced390b99c1f0e05f38f4569dfda22d) | feat: beta changelog json migration | - | [THUNDERBIRD_25_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_25_0b1) | - |
+| [#11758](https://github.com/thunderbird/thunderbird-android/pull/11758) | 2026-10-19 | [dc812b1](https://github.com/thunderbird/thunderbird-android/commit/dc812b118de9b5ba8a811200a27d58e7e8132910) | fix(message-composer): layout crash when rotating screen (#11721) | - | [THUNDERBIRD_25_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_25_0b2) | - |
+| [#11760](https://github.com/thunderbird/thunderbird-android/pull/11760) | 2026-10-19 | [d747e7c](https://github.com/thunderbird/thunderbird-android/commit/d747e7cf0e3f194634bb2ad9a741ccb2e9b4727a) | chore(feature-flag): temporarily disable remote catalog feature flag provider | - | [THUNDERBIRD_25_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_25_0b2) | - |
 
 </details>
 
