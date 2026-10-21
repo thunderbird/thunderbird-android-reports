@@ -23,6 +23,7 @@
 | [#11730](https://github.com/thunderbird/thunderbird-android/pull/11730) | 2026-10-15 | [055343e](https://github.com/thunderbird/thunderbird-android/commit/055343ec90fdbea603677356ee1f6163e11fd012) | fix(ui): change ic_remote_feature_flag drawable to use theme tint | - | - | - |
 | [#11743](https://github.com/thunderbird/thunderbird-android/pull/11743) | 2026-10-15 | [faaab4d](https://github.com/thunderbird/thunderbird-android/commit/faaab4d20446447783ebadfa1942965af0bcb452) | chore(platform): drop support for android 6 | - | - | - |
 | [#11708](https://github.com/thunderbird/thunderbird-android/pull/11708) | 2026-10-15 | [e010342](https://github.com/thunderbird/thunderbird-android/commit/e010342d2770bc0f1d25e57abf77ff9ed638f737) | feat(account): decouple account management and storage from legacy Preferences | - | - | - |
+| [#11755](https://github.com/thunderbird/thunderbird-android/pull/11755) | 2026-10-20 | [56d547a](https://github.com/thunderbird/thunderbird-android/commit/56d547a4ab844efe284e504686bedb6be91d40e3) | feat(notification-settings): folder settings split out | - | - | - |
 
 ### Review
 
@@ -62,6 +63,9 @@
 | [#11738](https://github.com/thunderbird/thunderbird-android/pull/11738) | 2026-10-15 | [5f03d1b](https://github.com/thunderbird/thunderbird-android/commit/5f03d1b13ecaaa56b224a5adf82ced5e6033a47e) | chore(deps): bump ch.qos.logback:logback-classic from 1.6.4 to 1.6.5 | - | - | - |
 | [#11734](https://github.com/thunderbird/thunderbird-android/pull/11734) | 2026-10-15 | [084f9c1](https://github.com/thunderbird/thunderbird-android/commit/084f9c184388e0f939b7fe202d5f89728664a44f) | chore(deps): bump jetbrainsComposeMaterial3Adaptive from 1.2.0 to 1.3.0 | - | - | - |
 | [#11735](https://github.com/thunderbird/thunderbird-android/pull/11735) | 2026-10-19 | [978dedb](https://github.com/thunderbird/thunderbird-android/commit/978dedbf354d015ad6e0f4875bf1e395f96366ce) | chore(deps): bump com.networknt:json-schema-validator from 3.0.7 to 3.0.8 | - | - | - |
+| [#11749](https://github.com/thunderbird/thunderbird-android/pull/11749) | 2026-10-20 | [f908720](https://github.com/thunderbird/thunderbird-android/commit/f90872041b63cdd12b0801cd15c2b1431dc79a45) | fix(preference): read settings from the cached storage snapshot to reduce startup reads | - | - | - |
+| [#11771](https://github.com/thunderbird/thunderbird-android/pull/11771) | 2026-10-20 | [8ceee59](https://github.com/thunderbird/thunderbird-android/commit/8ceee5909faa451c7f55d6330df31fe5a6b2389d) | chore(deps): bump the actions-deps group across 1 directory with 5 updates | - | - | - |
+| [#11764](https://github.com/thunderbird/thunderbird-android/pull/11764) | 2026-10-20 | [1943b9e](https://github.com/thunderbird/thunderbird-android/commit/1943b9e1fb64a6b8658236fc26aec71913cafe06) | fix(ci): Contributor list incorrectly listed contributions | - | - | - |
 
 </details>
 
