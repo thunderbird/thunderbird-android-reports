@@ -24,6 +24,7 @@
 | [#11743](https://github.com/thunderbird/thunderbird-android/pull/11743) | 2026-10-15 | [faaab4d](https://github.com/thunderbird/thunderbird-android/commit/faaab4d20446447783ebadfa1942965af0bcb452) | chore(platform): drop support for android 6 | - | - | - |
 | [#11708](https://github.com/thunderbird/thunderbird-android/pull/11708) | 2026-10-15 | [e010342](https://github.com/thunderbird/thunderbird-android/commit/e010342d2770bc0f1d25e57abf77ff9ed638f737) | feat(account): decouple account management and storage from legacy Preferences | - | - | - |
 | [#11755](https://github.com/thunderbird/thunderbird-android/pull/11755) | 2026-10-20 | [56d547a](https://github.com/thunderbird/thunderbird-android/commit/56d547a4ab844efe284e504686bedb6be91d40e3) | feat(notification-settings): folder settings split out | - | - | - |
+| [#11551](https://github.com/thunderbird/thunderbird-android/pull/11551) | 2026-10-21 | [0e98e0e](https://github.com/thunderbird/thunderbird-android/commit/0e98e0e868c4adac9af39b72b823ee04d1dbcdad) | fix: changing XML export and import to transfer K-9 avatar image to thunderbird | - | - | - |
 
 ### Review
 
@@ -66,6 +67,11 @@
 | [#11749](https://github.com/thunderbird/thunderbird-android/pull/11749) | 2026-10-20 | [f908720](https://github.com/thunderbird/thunderbird-android/commit/f90872041b63cdd12b0801cd15c2b1431dc79a45) | fix(preference): read settings from the cached storage snapshot to reduce startup reads | - | - | - |
 | [#11771](https://github.com/thunderbird/thunderbird-android/pull/11771) | 2026-10-20 | [8ceee59](https://github.com/thunderbird/thunderbird-android/commit/8ceee5909faa451c7f55d6330df31fe5a6b2389d) | chore(deps): bump the actions-deps group across 1 directory with 5 updates | - | - | - |
 | [#11764](https://github.com/thunderbird/thunderbird-android/pull/11764) | 2026-10-20 | [1943b9e](https://github.com/thunderbird/thunderbird-android/commit/1943b9e1fb64a6b8658236fc26aec71913cafe06) | fix(ci): Contributor list incorrectly listed contributions | - | - | - |
+| [#11776](https://github.com/thunderbird/thunderbird-android/pull/11776) | 2026-10-21 | [dadb008](https://github.com/thunderbird/thunderbird-android/commit/dadb008692528701c131634c58b245ac4ca2e2d2) | chore(deps): bump io.nlopez.compose.rules:detekt from 0.6.7 to 0.6.8 | - | - | - |
+| [#11769](https://github.com/thunderbird/thunderbird-android/pull/11769) | 2026-10-21 | [a1a4f3d](https://github.com/thunderbird/thunderbird-android/commit/a1a4f3d9ef7ed967f870d467af840a07b818bfa0) | refactor(notification): decouple NotificationRepository | - | - | - |
+| [#11774](https://github.com/thunderbird/thunderbird-android/pull/11774) | 2026-10-21 | [deee297](https://github.com/thunderbird/thunderbird-android/commit/deee297ab268cc06ce8460231f2bbac08e6207b9) | chore(deps): bump com.diffplug.spotless from 8.10.3 to 8.10.4 | - | - | - |
+| [#11772](https://github.com/thunderbird/thunderbird-android/pull/11772) | 2026-10-21 | [5b72f26](https://github.com/thunderbird/thunderbird-android/commit/5b72f263fda6088d7c180bc5233440fdfcb6dcdd) | chore(deps): bump kotlinBom from 2.4.20 to 2.4.21 | - | - | - |
+| [#11703](https://github.com/thunderbird/thunderbird-android/pull/11703) | 2026-10-21 | [d4da97a](https://github.com/thunderbird/thunderbird-android/commit/d4da97a8a79c34b71410a803d40b3321664b68ef) | refactor(pr-sentinel): skip validation checks for exempt pull requests | - | - | - |
 
 </details>
 
