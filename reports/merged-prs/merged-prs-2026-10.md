@@ -25,6 +25,8 @@
 | [#11708](https://github.com/thunderbird/thunderbird-android/pull/11708) | 2026-10-15 | [e010342](https://github.com/thunderbird/thunderbird-android/commit/e010342d2770bc0f1d25e57abf77ff9ed638f737) | feat(account): decouple account management and storage from legacy Preferences | - | - | - |
 | [#11755](https://github.com/thunderbird/thunderbird-android/pull/11755) | 2026-10-20 | [56d547a](https://github.com/thunderbird/thunderbird-android/commit/56d547a4ab844efe284e504686bedb6be91d40e3) | feat(notification-settings): folder settings split out | - | - | - |
 | [#11551](https://github.com/thunderbird/thunderbird-android/pull/11551) | 2026-10-21 | [0e98e0e](https://github.com/thunderbird/thunderbird-android/commit/0e98e0e868c4adac9af39b72b823ee04d1dbcdad) | fix: changing XML export and import to transfer K-9 avatar image to thunderbird | - | - | - |
+| [#11770](https://github.com/thunderbird/thunderbird-android/pull/11770) | 2026-10-22 | [dbd85a0](https://github.com/thunderbird/thunderbird-android/commit/dbd85a0da20daced961ff578240d8879876328b2) | chore(perf): introduce benchmarks with baseline and startup profile | - | - | - |
+| [#11780](https://github.com/thunderbird/thunderbird-android/pull/11780) | 2026-10-22 | [cb68589](https://github.com/thunderbird/thunderbird-android/commit/cb68589618ba6db1641fd63d47aa2b1231412515) | chore(i18n): translations update from Weblate | - | - | - |
 
 ### Review
 
@@ -72,6 +74,7 @@
 | [#11774](https://github.com/thunderbird/thunderbird-android/pull/11774) | 2026-10-21 | [deee297](https://github.com/thunderbird/thunderbird-android/commit/deee297ab268cc06ce8460231f2bbac08e6207b9) | chore(deps): bump com.diffplug.spotless from 8.10.3 to 8.10.4 | - | - | - |
 | [#11772](https://github.com/thunderbird/thunderbird-android/pull/11772) | 2026-10-21 | [5b72f26](https://github.com/thunderbird/thunderbird-android/commit/5b72f263fda6088d7c180bc5233440fdfcb6dcdd) | chore(deps): bump kotlinBom from 2.4.20 to 2.4.21 | - | - | - |
 | [#11703](https://github.com/thunderbird/thunderbird-android/pull/11703) | 2026-10-21 | [d4da97a](https://github.com/thunderbird/thunderbird-android/commit/d4da97a8a79c34b71410a803d40b3321664b68ef) | refactor(pr-sentinel): skip validation checks for exempt pull requests | - | - | - |
+| [#11767](https://github.com/thunderbird/thunderbird-android/pull/11767) | 2026-10-22 | [de8a032](https://github.com/thunderbird/thunderbird-android/commit/de8a03268415ce8e0c8b0327d3bbcb6b40a06a91) | refactor: replace deprecated bundleOf with typed Bundle calls | - | - | - |
 
 </details>
 
