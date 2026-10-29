@@ -75,6 +75,7 @@
 | [#11772](https://github.com/thunderbird/thunderbird-android/pull/11772) | 2026-10-21 | [5b72f26](https://github.com/thunderbird/thunderbird-android/commit/5b72f263fda6088d7c180bc5233440fdfcb6dcdd) | chore(deps): bump kotlinBom from 2.4.20 to 2.4.21 | - | - | - |
 | [#11703](https://github.com/thunderbird/thunderbird-android/pull/11703) | 2026-10-21 | [d4da97a](https://github.com/thunderbird/thunderbird-android/commit/d4da97a8a79c34b71410a803d40b3321664b68ef) | refactor(pr-sentinel): skip validation checks for exempt pull requests | - | - | - |
 | [#11767](https://github.com/thunderbird/thunderbird-android/pull/11767) | 2026-10-22 | [de8a032](https://github.com/thunderbird/thunderbird-android/commit/de8a03268415ce8e0c8b0327d3bbcb6b40a06a91) | refactor: replace deprecated bundleOf with typed Bundle calls | - | - | - |
+| [#11807](https://github.com/thunderbird/thunderbird-android/pull/11807) | 2026-10-28 | [1d3437a](https://github.com/thunderbird/thunderbird-android/commit/1d3437a6188fa316579d5be93a03a8d43a83cb83) | chore(deps): bump the actions-deps group across 2 directories with 4 updates | - | - | - |
 
 </details>
 
