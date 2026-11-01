@@ -4,6 +4,7 @@ Monthly reports of pull requests merged into thunderbird/thunderbird-android.
 
 | Month | Markdown | CSV |
 |---|---|---|
+| 2026-11 | [merged-prs-2026-11.md](merged-prs-2026-11.md) | [merged-prs-2026-11.csv](csv/merged-prs-2026-11.csv) |
 | 2026-10 | [merged-prs-2026-10.md](merged-prs-2026-10.md) | [merged-prs-2026-10.csv](csv/merged-prs-2026-10.csv) |
 | 2026-09 | [merged-prs-2026-09.md](merged-prs-2026-09.md) | [merged-prs-2026-09.csv](csv/merged-prs-2026-09.csv) |
 | 2026-08 | [merged-prs-2026-08.md](merged-prs-2026-08.md) | [merged-prs-2026-08.csv](csv/merged-prs-2026-08.csv) |
