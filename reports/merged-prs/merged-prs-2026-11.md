@@ -13,6 +13,7 @@
 | [#11814](https://github.com/thunderbird/thunderbird-android/pull/11814) | 2026-11-02 | [294b8b3](https://github.com/thunderbird/thunderbird-android/commit/294b8b3a762c06eeb3b7a6b0be1ac562fd8c3ce9) | fix(security): OkHttp patch for CVE-2026-11943 | - | - | - |
 | [#11815](https://github.com/thunderbird/thunderbird-android/pull/11815) | 2026-11-02 | [3436ad7](https://github.com/thunderbird/thunderbird-android/commit/3436ad7df7b0ea29162d3d4c847d90b5043d868b) | fix(security): fixes CVE-2026-11943 | - | - | - |
 | [#11816](https://github.com/thunderbird/thunderbird-android/pull/11816) | 2026-11-02 | [83f9dd7](https://github.com/thunderbird/thunderbird-android/commit/83f9dd7289f1f1410e533486a437a851d07ce3b1) | chore(i18n): translations update from Weblate | - | - | - |
+| [#11846](https://github.com/thunderbird/thunderbird-android/pull/11846) | 2026-11-03 | [b534eb7](https://github.com/thunderbird/thunderbird-android/commit/b534eb7ed5bb99e84edbfc2dc55e992c62c00ed9) | fix(donation-appeal): prevent multiple openings of appeal dialog | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -30,6 +31,13 @@
 | [#11813](https://github.com/thunderbird/thunderbird-android/pull/11813) | 2026-11-02 | [fd45fa8](https://github.com/thunderbird/thunderbird-android/commit/fd45fa8cceea1179a6529ff79e289df76e9db707) | chore(deps): bump org.jetbrains.kotlinx:kotlinx-serialization-json from 1.11.0 to 1.12.0 | - | - | - |
 | [#11775](https://github.com/thunderbird/thunderbird-android/pull/11775) | 2026-11-02 | [553d6ae](https://github.com/thunderbird/thunderbird-android/commit/553d6ae82df92526f35965fcdb2ed4ced0e5dfce) | chore(deps): bump com.github.ben-manes.versions from 0.65.0 to 0.66.0 | - | - | - |
 | [#11802](https://github.com/thunderbird/thunderbird-android/pull/11802) | 2026-11-02 | [5af8a3f](https://github.com/thunderbird/thunderbird-android/commit/5af8a3f7743674a55d6cf1260fb84253c1316919) | chore(deps): bump androidx.constraintlayout:constraintlayout from 2.2.1 to 2.2.2 | - | - | - |
+| [#11773](https://github.com/thunderbird/thunderbird-android/pull/11773) | 2026-11-03 | [d85a8bc](https://github.com/thunderbird/thunderbird-android/commit/d85a8bc32f7e574ab466434f120a7ec1345eb2ad) | chore(deps): bump com.lemonappdev:konsist from 0.17.3 to 0.18.1 | - | - | - |
+| [#11800](https://github.com/thunderbird/thunderbird-android/pull/11800) | 2026-11-03 | [84945b4](https://github.com/thunderbird/thunderbird-android/commit/84945b48a6853ed3f202c1536cab420bec8effb5) | chore(deps): bump androidxCore from 1.18.0 to 1.19.1 | - | - | - |
+| [#11804](https://github.com/thunderbird/thunderbird-android/pull/11804) | 2026-11-03 | [2b99364](https://github.com/thunderbird/thunderbird-android/commit/2b99364d777221fee9e4cc4e2d9ffa8c416e4db1) | chore(deps): bump androidx.appcompat:appcompat from 1.7.1 to 1.8.0 | - | - | - |
+| [#11809](https://github.com/thunderbird/thunderbird-android/pull/11809) | 2026-11-03 | [bd15983](https://github.com/thunderbird/thunderbird-android/commit/bd15983ecdc2fe402041ca3899064b9420de61a3) | chore(deps): bump androidxNavigation from 2.9.8 to 2.10.2 | - | - | - |
+| [#11841](https://github.com/thunderbird/thunderbird-android/pull/11841) | 2026-11-03 | [728eaa4](https://github.com/thunderbird/thunderbird-android/commit/728eaa4f1c98e0756217c2ab9b601fe5382f00cd) | chore(deps): bump org.jetbrains.androidx.navigation:navigation-compose from 2.9.2 to 2.10.0 | - | - | - |
+| [#11844](https://github.com/thunderbird/thunderbird-android/pull/11844) | 2026-11-03 | [4046528](https://github.com/thunderbird/thunderbird-android/commit/40465283d8cfbbb582280951d01831196579e363) | chore(deps): bump the actions-deps group across 1 directory with 4 updates | - | - | - |
+| [#11839](https://github.com/thunderbird/thunderbird-android/pull/11839) | 2026-11-03 | [017212c](https://github.com/thunderbird/thunderbird-android/commit/017212c78b5e293d7cbc0cdbb0b04a8f8220e1ef) | chore(deps): bump androidx.webkit:webkit from 1.15.0 to 1.18.0 | - | - | - |
 
 </details>
 
