@@ -11,7 +11,7 @@
 | PR | Merged | SHA | Title | Feature Flag | Beta | Release |
 |---|---|---|---|---|---|---|
 | [#11814](https://github.com/thunderbird/thunderbird-android/pull/11814) | 2026-11-02 | [294b8b3](https://github.com/thunderbird/thunderbird-android/commit/294b8b3a762c06eeb3b7a6b0be1ac562fd8c3ce9) | fix(security): OkHttp patch for CVE-2026-11943 | - | - | - |
-| [#11815](https://github.com/thunderbird/thunderbird-android/pull/11815) | 2026-11-02 | [3436ad7](https://github.com/thunderbird/thunderbird-android/commit/3436ad7df7b0ea29162d3d4c847d90b5043d868b) | fix(security): fixes CVE-2026-11943 | - | - | - |
+| [#11815](https://github.com/thunderbird/thunderbird-android/pull/11815) | 2026-11-02 | [3436ad7](https://github.com/thunderbird/thunderbird-android/commit/3436ad7df7b0ea29162d3d4c847d90b5043d868b) | fix(security): fixes CVE-2026-111943 | - | - | - |
 | [#11816](https://github.com/thunderbird/thunderbird-android/pull/11816) | 2026-11-02 | [83f9dd7](https://github.com/thunderbird/thunderbird-android/commit/83f9dd7289f1f1410e533486a437a851d07ce3b1) | chore(i18n): translations update from Weblate | - | - | - |
 | [#11846](https://github.com/thunderbird/thunderbird-android/pull/11846) | 2026-11-03 | [b534eb7](https://github.com/thunderbird/thunderbird-android/commit/b534eb7ed5bb99e84edbfc2dc55e992c62c00ed9) | fix(donation-appeal): prevent multiple openings of appeal dialog | - | - | - |
 
@@ -38,14 +38,48 @@
 | [#11841](https://github.com/thunderbird/thunderbird-android/pull/11841) | 2026-11-03 | [728eaa4](https://github.com/thunderbird/thunderbird-android/commit/728eaa4f1c98e0756217c2ab9b601fe5382f00cd) | chore(deps): bump org.jetbrains.androidx.navigation:navigation-compose from 2.9.2 to 2.10.0 | - | - | - |
 | [#11844](https://github.com/thunderbird/thunderbird-android/pull/11844) | 2026-11-03 | [4046528](https://github.com/thunderbird/thunderbird-android/commit/40465283d8cfbbb582280951d01831196579e363) | chore(deps): bump the actions-deps group across 1 directory with 4 updates | - | - | - |
 | [#11839](https://github.com/thunderbird/thunderbird-android/pull/11839) | 2026-11-03 | [017212c](https://github.com/thunderbird/thunderbird-android/commit/017212c78b5e293d7cbc0cdbb0b04a8f8220e1ef) | chore(deps): bump androidx.webkit:webkit from 1.15.0 to 1.18.0 | - | - | - |
+| [#11843](https://github.com/thunderbird/thunderbird-android/pull/11843) | 2026-11-04 | [13d0d51](https://github.com/thunderbird/thunderbird-android/commit/13d0d51e4024ef7eed12d800997532f9baef3d6c) | refactor(build): rename isCi to minify to better reflect it's purpose | - | - | - |
+| [#11810](https://github.com/thunderbird/thunderbird-android/pull/11810) | 2026-11-04 | [bae2027](https://github.com/thunderbird/thunderbird-android/commit/bae2027f86a75a7df43d4744c0b6ea4a72df1791) | chore(deps): bump androidxFragment from 1.8.9 to 1.9.1 | - | - | - |
+| [#11811](https://github.com/thunderbird/thunderbird-android/pull/11811) | 2026-11-04 | [83fb5d8](https://github.com/thunderbird/thunderbird-android/commit/83fb5d8d6deac32e74b6bd2098fec8688a353fe3) | chore(deps): bump org.minidns:minidns-hla from 1.1.1 to 1.1.3 | - | - | - |
+| [#11840](https://github.com/thunderbird/thunderbird-android/pull/11840) | 2026-11-04 | [b14b3b2](https://github.com/thunderbird/thunderbird-android/commit/b14b3b2a504b4cf1f8c492e44340dc6e8c41f1a8) | chore(deps): bump androidxDatastore from 1.2.1 to 1.3.0 | - | - | - |
+| [#11848](https://github.com/thunderbird/thunderbird-android/pull/11848) | 2026-11-04 | [a0e522d](https://github.com/thunderbird/thunderbird-android/commit/a0e522d463338b12ee469034121ab571efaf7967) | fix(security): small updates to certificate blocklist | - | - | - |
+| [#11870](https://github.com/thunderbird/thunderbird-android/pull/11870) | 2026-11-04 | [1d8a4ca](https://github.com/thunderbird/thunderbird-android/commit/1d8a4caf60e372b25eb791de216f9409d441a7ca) | fix(message-list): crash when restoring message view without fragment | - | - | - |
+| [#11874](https://github.com/thunderbird/thunderbird-android/pull/11874) | 2026-11-04 | [d172bd2](https://github.com/thunderbird/thunderbird-android/commit/d172bd2f284209c816d177873a453b2b4b884c05) | feat(appeal): add new copy strings | - | - | - |
 
 </details>
 
 ## Branch: beta
 
-_No merged PRs in this range._
+### Include
+
+| PR | Merged | SHA | Title | Feature Flag | Beta | Release |
+|---|---|---|---|---|---|---|
+| [#11847](https://github.com/thunderbird/thunderbird-android/pull/11847) | 2026-11-04 | [85f509b](https://github.com/thunderbird/thunderbird-android/commit/85f509b409d781b94a70999282098a0264f9d137) | uplift(beta): fix(donation-appeal): prevent multiple openings of appeal dialog (#11846) | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | - |
+| [#11831](https://github.com/thunderbird/thunderbird-android/pull/11831) | 2026-11-04 | [04e52b8](https://github.com/thunderbird/thunderbird-android/commit/04e52b89191c7a15194acf75ac0483d5237ba6ca) | uplift(beta): fix CVE-2026-111943 | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | - |
+
+<details>
+<summary>Excluded</summary>
+
+| PR | Merged | SHA | Title | Feature Flag | Beta | Release |
+|---|---|---|---|---|---|---|
+| [#11864](https://github.com/thunderbird/thunderbird-android/pull/11864) | 2026-11-04 | [07743e8](https://github.com/thunderbird/thunderbird-android/commit/07743e8dc4495b7b1b0f6b58b788b1e865bc6b8e) | fix(changelog): remove prefixes that are not needed anymore | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | - |
+
+</details>
 
 ## Branch: release
 
-_No merged PRs in this range._
+### Include
+
+| PR | Merged | SHA | Title | Feature Flag | Beta | Release |
+|---|---|---|---|---|---|---|
+| [#11832](https://github.com/thunderbird/thunderbird-android/pull/11832) | 2026-11-04 | [8d28d41](https://github.com/thunderbird/thunderbird-android/commit/8d28d41c18b35e7e2113a55338a04c4940b93a75) | uplift(release): fix CVE-2026-111943 | - | - | Not released yet |
+
+<details>
+<summary>Excluded</summary>
+
+| PR | Merged | SHA | Title | Feature Flag | Beta | Release |
+|---|---|---|---|---|---|---|
+| [#11845](https://github.com/thunderbird/thunderbird-android/pull/11845) | 2026-11-04 | [6908eae](https://github.com/thunderbird/thunderbird-android/commit/6908eae733061a7ab0ed874e8ece0075902a742b) | feat: release changelog json migration | - | - | Not released yet |
+
+</details>
 
