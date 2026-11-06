@@ -14,6 +14,12 @@
 | [#11815](https://github.com/thunderbird/thunderbird-android/pull/11815) | 2026-11-02 | [3436ad7](https://github.com/thunderbird/thunderbird-android/commit/3436ad7df7b0ea29162d3d4c847d90b5043d868b) | fix(security): fixes CVE-2026-111943 | - | - | - |
 | [#11816](https://github.com/thunderbird/thunderbird-android/pull/11816) | 2026-11-02 | [83f9dd7](https://github.com/thunderbird/thunderbird-android/commit/83f9dd7289f1f1410e533486a437a851d07ce3b1) | chore(i18n): translations update from Weblate | - | - | - |
 | [#11846](https://github.com/thunderbird/thunderbird-android/pull/11846) | 2026-11-03 | [b534eb7](https://github.com/thunderbird/thunderbird-android/commit/b534eb7ed5bb99e84edbfc2dc55e992c62c00ed9) | fix(donation-appeal): prevent multiple openings of appeal dialog | - | - | - |
+| [#11850](https://github.com/thunderbird/thunderbird-android/pull/11850) | 2026-11-05 | [daf2bf0](https://github.com/thunderbird/thunderbird-android/commit/daf2bf00e6baf50dfb1fbf0b181b939eb1fb988d) | chore(i18n): translations update from Weblate | - | - | - |
+| [#11834](https://github.com/thunderbird/thunderbird-android/pull/11834) | 2026-11-05 | [7ad1717](https://github.com/thunderbird/thunderbird-android/commit/7ad1717b7dbbd0591f149aa11fd16c245af6dc43) | fix(message-reader): dismiss bottom sheet after action selection | - | - | - |
+| [#11820](https://github.com/thunderbird/thunderbird-android/pull/11820) | 2026-11-05 | [1ccf109](https://github.com/thunderbird/thunderbird-android/commit/1ccf1091c1141a76974edb4ecb8ae43aabaa2518) | fix(drawer): rotate sync icon in direction of arrowheads | - | - | - |
+| [#11744](https://github.com/thunderbird/thunderbird-android/pull/11744) | 2026-11-05 | [d7e5649](https://github.com/thunderbird/thunderbird-android/commit/d7e56494a9f417d8840c896431998786f3f8bc2b) | feat(account): unified special folders | - | - | - |
+| [#11829](https://github.com/thunderbird/thunderbird-android/pull/11829) | 2026-11-05 | [9a520d4](https://github.com/thunderbird/thunderbird-android/commit/9a520d4bc29b61c85951f557d6e21c7c7e139167) | fix(message-view): infer MIME type from file name when saving octet-stream attachments | - | - | - |
+| [#11821](https://github.com/thunderbird/thunderbird-android/pull/11821) | 2026-11-05 | [a89210f](https://github.com/thunderbird/thunderbird-android/commit/a89210f5fc9fd0d716d88e6925b1b0ba1afc0943) | feat(account-setup): show IMAP hint when POP3 is selected | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -45,6 +51,9 @@
 | [#11848](https://github.com/thunderbird/thunderbird-android/pull/11848) | 2026-11-04 | [a0e522d](https://github.com/thunderbird/thunderbird-android/commit/a0e522d463338b12ee469034121ab571efaf7967) | fix(security): small updates to certificate blocklist | - | - | - |
 | [#11870](https://github.com/thunderbird/thunderbird-android/pull/11870) | 2026-11-04 | [1d8a4ca](https://github.com/thunderbird/thunderbird-android/commit/1d8a4caf60e372b25eb791de216f9409d441a7ca) | fix(message-list): crash when restoring message view without fragment | - | - | - |
 | [#11874](https://github.com/thunderbird/thunderbird-android/pull/11874) | 2026-11-04 | [d172bd2](https://github.com/thunderbird/thunderbird-android/commit/d172bd2f284209c816d177873a453b2b4b884c05) | feat(appeal): add new copy strings | - | - | - |
+| [#11866](https://github.com/thunderbird/thunderbird-android/pull/11866) | 2026-11-05 | [d9a6623](https://github.com/thunderbird/thunderbird-android/commit/d9a6623cfc78a9fc3dcf0037cca70bcc6ed6b3a4) | refactor(changelog): remove migration script | - | - | - |
+| [#11838](https://github.com/thunderbird/thunderbird-android/pull/11838) | 2026-11-05 | [f281348](https://github.com/thunderbird/thunderbird-android/commit/f28134867469813fb8603e027ea60883ee93dcb7) | chore(deps): bump android gradle plugin 9.5.0 | - | - | - |
+| [#11777](https://github.com/thunderbird/thunderbird-android/pull/11777) | 2026-11-05 | [9ec8613](https://github.com/thunderbird/thunderbird-android/commit/9ec86136a471fc1bfcf83a7facaa9e22f966a64c) | chore(perf): add baseline and startup profiles | - | - | - |
 
 </details>
 
@@ -63,6 +72,7 @@
 | PR | Merged | SHA | Title | Feature Flag | Beta | Release |
 |---|---|---|---|---|---|---|
 | [#11864](https://github.com/thunderbird/thunderbird-android/pull/11864) | 2026-11-04 | [07743e8](https://github.com/thunderbird/thunderbird-android/commit/07743e8dc4495b7b1b0f6b58b788b1e865bc6b8e) | fix(changelog): remove prefixes that are not needed anymore | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | - |
+| [#11871](https://github.com/thunderbird/thunderbird-android/pull/11871) | 2026-11-05 | [8155df4](https://github.com/thunderbird/thunderbird-android/commit/8155df4940071727c4dedcc6cfe1103057ed7a75) | uplift(beta): fix message-view-restore-crash | - | [THUNDERBIRD_26_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b2) | - |
 
 </details>
 
@@ -73,6 +83,7 @@
 | PR | Merged | SHA | Title | Feature Flag | Beta | Release |
 |---|---|---|---|---|---|---|
 | [#11832](https://github.com/thunderbird/thunderbird-android/pull/11832) | 2026-11-04 | [8d28d41](https://github.com/thunderbird/thunderbird-android/commit/8d28d41c18b35e7e2113a55338a04c4940b93a75) | uplift(release): fix CVE-2026-111943 | - | - | Not released yet |
+| [#11875](https://github.com/thunderbird/thunderbird-android/pull/11875) | 2026-11-05 | [1e9e09c](https://github.com/thunderbird/thunderbird-android/commit/1e9e09cef4139a1693de08bd182b1b21b5d4aeee) | uplift(release): fix(donation-appeal): prevent multiple openings of appeal dialog (#11846) | - | - | Not released yet |
 
 <details>
 <summary>Excluded</summary>
