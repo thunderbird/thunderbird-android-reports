@@ -20,6 +20,7 @@
 | [#11744](https://github.com/thunderbird/thunderbird-android/pull/11744) | 2026-11-05 | [d7e5649](https://github.com/thunderbird/thunderbird-android/commit/d7e56494a9f417d8840c896431998786f3f8bc2b) | feat(account): unified special folders | - | - | - |
 | [#11829](https://github.com/thunderbird/thunderbird-android/pull/11829) | 2026-11-05 | [9a520d4](https://github.com/thunderbird/thunderbird-android/commit/9a520d4bc29b61c85951f557d6e21c7c7e139167) | fix(message-view): infer MIME type from file name when saving octet-stream attachments | - | - | - |
 | [#11821](https://github.com/thunderbird/thunderbird-android/pull/11821) | 2026-11-05 | [a89210f](https://github.com/thunderbird/thunderbird-android/commit/a89210f5fc9fd0d716d88e6925b1b0ba1afc0943) | feat(account-setup): show IMAP hint when POP3 is selected | - | - | - |
+| [#11824](https://github.com/thunderbird/thunderbird-android/pull/11824) | 2026-11-06 | [f7dfc54](https://github.com/thunderbird/thunderbird-android/commit/f7dfc5495a4bb227bd735b37405c1db66049f651) | feat: modernize ExportSettings | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -54,6 +55,8 @@
 | [#11866](https://github.com/thunderbird/thunderbird-android/pull/11866) | 2026-11-05 | [d9a6623](https://github.com/thunderbird/thunderbird-android/commit/d9a6623cfc78a9fc3dcf0037cca70bcc6ed6b3a4) | refactor(changelog): remove migration script | - | - | - |
 | [#11838](https://github.com/thunderbird/thunderbird-android/pull/11838) | 2026-11-05 | [f281348](https://github.com/thunderbird/thunderbird-android/commit/f28134867469813fb8603e027ea60883ee93dcb7) | chore(deps): bump android gradle plugin 9.5.0 | - | - | - |
 | [#11777](https://github.com/thunderbird/thunderbird-android/pull/11777) | 2026-11-05 | [9ec8613](https://github.com/thunderbird/thunderbird-android/commit/9ec86136a471fc1bfcf83a7facaa9e22f966a64c) | chore(perf): add baseline and startup profiles | - | - | - |
+| [#11878](https://github.com/thunderbird/thunderbird-android/pull/11878) | 2026-11-06 | [aec662b](https://github.com/thunderbird/thunderbird-android/commit/aec662bad1a392518b6a400f9816b512320e48bb) | fix: remove stale string | - | - | - |
+| [#11880](https://github.com/thunderbird/thunderbird-android/pull/11880) | 2026-11-06 | [467787f](https://github.com/thunderbird/thunderbird-android/commit/467787fcc43e560aae2d670c7cfa5f9036ca486d) | fix(build): keep benchmark variants enabled during IDE sync | - | - | - |
 
 </details>
 
