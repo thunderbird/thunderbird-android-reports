@@ -21,6 +21,7 @@
 | [#11829](https://github.com/thunderbird/thunderbird-android/pull/11829) | 2026-11-05 | [9a520d4](https://github.com/thunderbird/thunderbird-android/commit/9a520d4bc29b61c85951f557d6e21c7c7e139167) | fix(message-view): infer MIME type from file name when saving octet-stream attachments | - | - | - |
 | [#11821](https://github.com/thunderbird/thunderbird-android/pull/11821) | 2026-11-05 | [a89210f](https://github.com/thunderbird/thunderbird-android/commit/a89210f5fc9fd0d716d88e6925b1b0ba1afc0943) | feat(account-setup): show IMAP hint when POP3 is selected | - | - | - |
 | [#11824](https://github.com/thunderbird/thunderbird-android/pull/11824) | 2026-11-06 | [f7dfc54](https://github.com/thunderbird/thunderbird-android/commit/f7dfc5495a4bb227bd735b37405c1db66049f651) | feat: modernize ExportSettings | - | - | - |
+| [#11713](https://github.com/thunderbird/thunderbird-android/pull/11713) | 2026-11-09 | [bfd56bf](https://github.com/thunderbird/thunderbird-android/commit/bfd56bf24a4e8ecc34d3135a9c98cafcddec56e8) | fix(account-avatar): preserve multi-code-point emoji in avatar monogram | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -57,6 +58,12 @@
 | [#11777](https://github.com/thunderbird/thunderbird-android/pull/11777) | 2026-11-05 | [9ec8613](https://github.com/thunderbird/thunderbird-android/commit/9ec86136a471fc1bfcf83a7facaa9e22f966a64c) | chore(perf): add baseline and startup profiles | - | - | - |
 | [#11878](https://github.com/thunderbird/thunderbird-android/pull/11878) | 2026-11-06 | [aec662b](https://github.com/thunderbird/thunderbird-android/commit/aec662bad1a392518b6a400f9816b512320e48bb) | fix: remove stale string | - | - | - |
 | [#11880](https://github.com/thunderbird/thunderbird-android/pull/11880) | 2026-11-06 | [467787f](https://github.com/thunderbird/thunderbird-android/commit/467787fcc43e560aae2d670c7cfa5f9036ca486d) | fix(build): keep benchmark variants enabled during IDE sync | - | - | - |
+| [#11888](https://github.com/thunderbird/thunderbird-android/pull/11888) | 2026-11-09 | [f17e147](https://github.com/thunderbird/thunderbird-android/commit/f17e147d6d9105ced19a6ec36f4c9d1dab6a44d6) | chore(deps): bump ch.qos.logback:logback-classic from 1.6.5 to 1.6.6 | - | - | - |
+| [#11891](https://github.com/thunderbird/thunderbird-android/pull/11891) | 2026-11-09 | [26dc91b](https://github.com/thunderbird/thunderbird-android/commit/26dc91b00ccc63014ef9383824e8454c4c2ab3a3) | chore(deps): bump io.github.vinceglb:filekit-core from 0.16.0 to 0.17.0 | - | - | - |
+| [#11885](https://github.com/thunderbird/thunderbird-android/pull/11885) | 2026-11-09 | [24d6ca5](https://github.com/thunderbird/thunderbird-android/commit/24d6ca58b116c0985863a500c32f0d34c7423033) | chore(deps): bump ktor from 3.6.0 to 3.6.1 | - | - | - |
+| [#11863](https://github.com/thunderbird/thunderbird-android/pull/11863) | 2026-11-09 | [49c0c69](https://github.com/thunderbird/thunderbird-android/commit/49c0c6987a32723ff093a4e205153353c5d91ef3) | chore(quality): add konsist rules for test assertions | - | - | - |
+| [#11879](https://github.com/thunderbird/thunderbird-android/pull/11879) | 2026-11-09 | [f6f904a](https://github.com/thunderbird/thunderbird-android/commit/f6f904a14d2d6575a270e7ba8f0f6a278d06aa28) | chore(deps): bump version updates 0.66.0 -> 0.67.0 | - | - | - |
+| [#11890](https://github.com/thunderbird/thunderbird-android/pull/11890) | 2026-11-10 | [83b6816](https://github.com/thunderbird/thunderbird-android/commit/83b6816be46f2a9a5fd97795074d330ec96a6832) | chore(deps): bump org.jsoup:jsoup from 1.19.1 to 1.23.2 | - | - | - |
 
 </details>
 
