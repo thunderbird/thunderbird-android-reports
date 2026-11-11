@@ -22,6 +22,7 @@
 | [#11821](https://github.com/thunderbird/thunderbird-android/pull/11821) | 2026-11-05 | [a89210f](https://github.com/thunderbird/thunderbird-android/commit/a89210f5fc9fd0d716d88e6925b1b0ba1afc0943) | feat(account-setup): show IMAP hint when POP3 is selected | - | - | - |
 | [#11824](https://github.com/thunderbird/thunderbird-android/pull/11824) | 2026-11-06 | [f7dfc54](https://github.com/thunderbird/thunderbird-android/commit/f7dfc5495a4bb227bd735b37405c1db66049f651) | feat: modernize ExportSettings | - | - | - |
 | [#11713](https://github.com/thunderbird/thunderbird-android/pull/11713) | 2026-11-09 | [bfd56bf](https://github.com/thunderbird/thunderbird-android/commit/bfd56bf24a4e8ecc34d3135a9c98cafcddec56e8) | fix(account-avatar): preserve multi-code-point emoji in avatar monogram | - | - | - |
+| [#11901](https://github.com/thunderbird/thunderbird-android/pull/11901) | 2026-11-10 | [f151eee](https://github.com/thunderbird/thunderbird-android/commit/f151eeedadd776426b2494dbf0860c6f6824a457) | fix(widget): crash when loading unread widget with legacy unified acccount id | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -64,6 +65,10 @@
 | [#11863](https://github.com/thunderbird/thunderbird-android/pull/11863) | 2026-11-09 | [49c0c69](https://github.com/thunderbird/thunderbird-android/commit/49c0c6987a32723ff093a4e205153353c5d91ef3) | chore(quality): add konsist rules for test assertions | - | - | - |
 | [#11879](https://github.com/thunderbird/thunderbird-android/pull/11879) | 2026-11-09 | [f6f904a](https://github.com/thunderbird/thunderbird-android/commit/f6f904a14d2d6575a270e7ba8f0f6a278d06aa28) | chore(deps): bump version updates 0.66.0 -> 0.67.0 | - | - | - |
 | [#11890](https://github.com/thunderbird/thunderbird-android/pull/11890) | 2026-11-10 | [83b6816](https://github.com/thunderbird/thunderbird-android/commit/83b6816be46f2a9a5fd97795074d330ec96a6832) | chore(deps): bump org.jsoup:jsoup from 1.19.1 to 1.23.2 | - | - | - |
+| [#11904](https://github.com/thunderbird/thunderbird-android/pull/11904) | 2026-11-10 | [3971ae7](https://github.com/thunderbird/thunderbird-android/commit/3971ae706c2903f3e821f34039d0cc3996f44bcf) | docs(contributing): add root CONTRIBUTING.md redirecting to docs guide | - | - | - |
+| [#11887](https://github.com/thunderbird/thunderbird-android/pull/11887) | 2026-11-10 | [4546de5](https://github.com/thunderbird/thunderbird-android/commit/4546de549e90b5c70dad87b446631211a4a1533f) | feat(donation appeal): simplify donation appeal logic | - | - | - |
+| [#11911](https://github.com/thunderbird/thunderbird-android/pull/11911) | 2026-11-10 | [f264ea0](https://github.com/thunderbird/thunderbird-android/commit/f264ea0acfd4341b98fdd2ca2de58f05f329d623) | chore(deps): bump org.jsoup:jsoup from 1.23.2 to 1.24.1 | - | - | - |
+| [#11884](https://github.com/thunderbird/thunderbird-android/pull/11884) | 2026-11-10 | [3542b3e](https://github.com/thunderbird/thunderbird-android/commit/3542b3e75bef57405ef0ce0a4d6c4655d7bb8eb5) | chore(deps): bump com.google.devtools.ksp from 2.3.12 to 2.3.13 | - | - | - |
 
 </details>
 
@@ -83,6 +88,7 @@
 |---|---|---|---|---|---|---|
 | [#11864](https://github.com/thunderbird/thunderbird-android/pull/11864) | 2026-11-04 | [07743e8](https://github.com/thunderbird/thunderbird-android/commit/07743e8dc4495b7b1b0f6b58b788b1e865bc6b8e) | fix(changelog): remove prefixes that are not needed anymore | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | - |
 | [#11871](https://github.com/thunderbird/thunderbird-android/pull/11871) | 2026-11-05 | [8155df4](https://github.com/thunderbird/thunderbird-android/commit/8155df4940071727c4dedcc6cfe1103057ed7a75) | uplift(beta): fix message-view-restore-crash | - | [THUNDERBIRD_26_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b2) | - |
+| [#11903](https://github.com/thunderbird/thunderbird-android/pull/11903) | 2026-11-10 | [a178066](https://github.com/thunderbird/thunderbird-android/commit/a178066332c77dec8ae523757ab527a7b6703c81) | uplift(beta): chore(deps): bump org.jsoup:jsoup from 1.19.1 to 1.23.2 (#11890) | - | [THUNDERBIRD_26_0b3](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b3) | - |
 
 </details>
 
@@ -92,15 +98,15 @@
 
 | PR | Merged | SHA | Title | Feature Flag | Beta | Release |
 |---|---|---|---|---|---|---|
-| [#11832](https://github.com/thunderbird/thunderbird-android/pull/11832) | 2026-11-04 | [8d28d41](https://github.com/thunderbird/thunderbird-android/commit/8d28d41c18b35e7e2113a55338a04c4940b93a75) | uplift(release): fix CVE-2026-111943 | - | - | Not released yet |
-| [#11875](https://github.com/thunderbird/thunderbird-android/pull/11875) | 2026-11-05 | [1e9e09c](https://github.com/thunderbird/thunderbird-android/commit/1e9e09cef4139a1693de08bd182b1b21b5d4aeee) | uplift(release): fix(donation-appeal): prevent multiple openings of appeal dialog (#11846) | - | - | Not released yet |
+| [#11832](https://github.com/thunderbird/thunderbird-android/pull/11832) | 2026-11-04 | [8d28d41](https://github.com/thunderbird/thunderbird-android/commit/8d28d41c18b35e7e2113a55338a04c4940b93a75) | uplift(release): fix CVE-2026-111943 | - | - | [THUNDERBIRD_25_0](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_25_0) |
+| [#11875](https://github.com/thunderbird/thunderbird-android/pull/11875) | 2026-11-05 | [1e9e09c](https://github.com/thunderbird/thunderbird-android/commit/1e9e09cef4139a1693de08bd182b1b21b5d4aeee) | uplift(release): fix(donation-appeal): prevent multiple openings of appeal dialog (#11846) | - | - | [THUNDERBIRD_25_0](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_25_0) |
 
 <details>
 <summary>Excluded</summary>
 
 | PR | Merged | SHA | Title | Feature Flag | Beta | Release |
 |---|---|---|---|---|---|---|
-| [#11845](https://github.com/thunderbird/thunderbird-android/pull/11845) | 2026-11-04 | [6908eae](https://github.com/thunderbird/thunderbird-android/commit/6908eae733061a7ab0ed874e8ece0075902a742b) | feat: release changelog json migration | - | - | Not released yet |
+| [#11845](https://github.com/thunderbird/thunderbird-android/pull/11845) | 2026-11-04 | [6908eae](https://github.com/thunderbird/thunderbird-android/commit/6908eae733061a7ab0ed874e8ece0075902a742b) | feat: release changelog json migration | - | - | [THUNDERBIRD_25_0](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_25_0) |
 
 </details>
 
