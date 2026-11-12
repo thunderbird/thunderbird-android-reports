@@ -23,6 +23,7 @@
 | [#11824](https://github.com/thunderbird/thunderbird-android/pull/11824) | 2026-11-06 | [f7dfc54](https://github.com/thunderbird/thunderbird-android/commit/f7dfc5495a4bb227bd735b37405c1db66049f651) | feat: modernize ExportSettings | - | - | - |
 | [#11713](https://github.com/thunderbird/thunderbird-android/pull/11713) | 2026-11-09 | [bfd56bf](https://github.com/thunderbird/thunderbird-android/commit/bfd56bf24a4e8ecc34d3135a9c98cafcddec56e8) | fix(account-avatar): preserve multi-code-point emoji in avatar monogram | - | - | - |
 | [#11901](https://github.com/thunderbird/thunderbird-android/pull/11901) | 2026-11-10 | [f151eee](https://github.com/thunderbird/thunderbird-android/commit/f151eeedadd776426b2494dbf0860c6f6824a457) | fix(widget): crash when loading unread widget with legacy unified acccount id | - | - | - |
+| [#11914](https://github.com/thunderbird/thunderbird-android/pull/11914) | 2026-11-11 | [76e65d5](https://github.com/thunderbird/thunderbird-android/commit/76e65d5decfbfd8ccad4debfe2f602c213e4e64c) | feat(settings): Enable default-on push for all builds | push_enabled_on_inbox_by_default | - | - |
 
 <details>
 <summary>Excluded</summary>
