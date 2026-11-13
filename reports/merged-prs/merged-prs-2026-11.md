@@ -70,6 +70,8 @@
 | [#11887](https://github.com/thunderbird/thunderbird-android/pull/11887) | 2026-11-10 | [4546de5](https://github.com/thunderbird/thunderbird-android/commit/4546de549e90b5c70dad87b446631211a4a1533f) | feat(donation appeal): simplify donation appeal logic | - | - | - |
 | [#11911](https://github.com/thunderbird/thunderbird-android/pull/11911) | 2026-11-10 | [f264ea0](https://github.com/thunderbird/thunderbird-android/commit/f264ea0acfd4341b98fdd2ca2de58f05f329d623) | chore(deps): bump org.jsoup:jsoup from 1.23.2 to 1.24.1 | - | - | - |
 | [#11884](https://github.com/thunderbird/thunderbird-android/pull/11884) | 2026-11-10 | [3542b3e](https://github.com/thunderbird/thunderbird-android/commit/3542b3e75bef57405ef0ce0a4d6c4655d7bb8eb5) | chore(deps): bump com.google.devtools.ksp from 2.3.12 to 2.3.13 | - | - | - |
+| [#11898](https://github.com/thunderbird/thunderbird-android/pull/11898) | 2026-11-12 | [469018e](https://github.com/thunderbird/thunderbird-android/commit/469018e9f1bbfb68fbf17373c99618d5ab211a73) | refactor(controller):  convert MessagingController to Kotlin | - | - | - |
+| [#11883](https://github.com/thunderbird/thunderbird-android/pull/11883) | 2026-11-12 | [ac1f0e8](https://github.com/thunderbird/thunderbird-android/commit/ac1f0e85f63c1b600ac443d1fb2d939bffff7de5) | chore(deps): bump androidGradlePlugin from 9.5.0 to 9.5.1 | - | - | - |
 
 </details>
 
