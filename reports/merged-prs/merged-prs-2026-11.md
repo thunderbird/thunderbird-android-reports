@@ -85,6 +85,7 @@
 |---|---|---|---|---|---|---|
 | [#11847](https://github.com/thunderbird/thunderbird-android/pull/11847) | 2026-11-04 | [85f509b](https://github.com/thunderbird/thunderbird-android/commit/85f509b409d781b94a70999282098a0264f9d137) | uplift(beta): fix(donation-appeal): prevent multiple openings of appeal dialog (#11846) | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | - |
 | [#11831](https://github.com/thunderbird/thunderbird-android/pull/11831) | 2026-11-04 | [04e52b8](https://github.com/thunderbird/thunderbird-android/commit/04e52b89191c7a15194acf75ac0483d5237ba6ca) | uplift(beta): fix CVE-2026-111943 | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | - |
+| [#11906](https://github.com/thunderbird/thunderbird-android/pull/11906) | 2026-11-16 | [e9c1701](https://github.com/thunderbird/thunderbird-android/commit/e9c1701ec5fad6632a0fb7647d42ee52b514fd4e) | uplift(beta): fix(widget): unread widget fails to load accounts (#11901) | - | [THUNDERBIRD_26_0b4](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b4) | - |
 
 <details>
 <summary>Excluded</summary>
