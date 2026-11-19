@@ -75,6 +75,7 @@
 | [#11883](https://github.com/thunderbird/thunderbird-android/pull/11883) | 2026-11-12 | [ac1f0e8](https://github.com/thunderbird/thunderbird-android/commit/ac1f0e85f63c1b600ac443d1fb2d939bffff7de5) | chore(deps): bump androidGradlePlugin from 9.5.0 to 9.5.1 | - | - | - |
 | [#11912](https://github.com/thunderbird/thunderbird-android/pull/11912) | 2026-11-14 | [078243f](https://github.com/thunderbird/thunderbird-android/commit/078243f7f0fffab231a7c8f41c3c2865183d6bf5) | chore(deps): bump com.diffplug.spotless from 8.10.4 to 8.11.0 | - | - | - |
 | [#11889](https://github.com/thunderbird/thunderbird-android/pull/11889) | 2026-11-14 | [d2ecc5c](https://github.com/thunderbird/thunderbird-android/commit/d2ecc5cc940a36476f9d3608b311eb28b650dd6b) | chore(deps): bump com.ibm.icu:icu4j-charset from 78.3 to 79.1 | - | - | - |
+| [#11933](https://github.com/thunderbird/thunderbird-android/pull/11933) | 2026-11-18 | [efec27f](https://github.com/thunderbird/thunderbird-android/commit/efec27f58acb8159ce85ac40045c13e3a9232739) | chore(deps): bump androidx.test.uiautomator:uiautomator from 2.4.0 to 2.4.1 | - | - | - |
 
 </details>
 
