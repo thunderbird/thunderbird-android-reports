@@ -76,6 +76,8 @@
 | [#11912](https://github.com/thunderbird/thunderbird-android/pull/11912) | 2026-11-14 | [078243f](https://github.com/thunderbird/thunderbird-android/commit/078243f7f0fffab231a7c8f41c3c2865183d6bf5) | chore(deps): bump com.diffplug.spotless from 8.10.4 to 8.11.0 | - | - | - |
 | [#11889](https://github.com/thunderbird/thunderbird-android/pull/11889) | 2026-11-14 | [d2ecc5c](https://github.com/thunderbird/thunderbird-android/commit/d2ecc5cc940a36476f9d3608b311eb28b650dd6b) | chore(deps): bump com.ibm.icu:icu4j-charset from 78.3 to 79.1 | - | - | - |
 | [#11933](https://github.com/thunderbird/thunderbird-android/pull/11933) | 2026-11-18 | [efec27f](https://github.com/thunderbird/thunderbird-android/commit/efec27f58acb8159ce85ac40045c13e3a9232739) | chore(deps): bump androidx.test.uiautomator:uiautomator from 2.4.0 to 2.4.1 | - | - | - |
+| [#11922](https://github.com/thunderbird/thunderbird-android/pull/11922) | 2026-11-19 | [1daaefb](https://github.com/thunderbird/thunderbird-android/commit/1daaefba6a2994496ec2e3a73888584ec7f00f54) | feat(appeal): remove old db entries and reset values | - | - | - |
+| [#11932](https://github.com/thunderbird/thunderbird-android/pull/11932) | 2026-11-20 | [2d88129](https://github.com/thunderbird/thunderbird-android/commit/2d881297d9005af4d8035d382f078d07aaa0e079) | chore(deps): bump com.networknt:json-schema-validator from 3.0.8 to 3.0.9 | - | - | - |
 
 </details>
 
