@@ -25,6 +25,7 @@
 | [#11901](https://github.com/thunderbird/thunderbird-android/pull/11901) | 2026-11-10 | [f151eee](https://github.com/thunderbird/thunderbird-android/commit/f151eeedadd776426b2494dbf0860c6f6824a457) | fix(widget): crash when loading unread widget with legacy unified acccount id | - | - | - |
 | [#11914](https://github.com/thunderbird/thunderbird-android/pull/11914) | 2026-11-11 | [76e65d5](https://github.com/thunderbird/thunderbird-android/commit/76e65d5decfbfd8ccad4debfe2f602c213e4e64c) | feat(settings): Enable default-on push for all builds | push_enabled_on_inbox_by_default | - | - |
 | [#11918](https://github.com/thunderbird/thunderbird-android/pull/11918) | 2026-11-17 | [0fd47ca](https://github.com/thunderbird/thunderbird-android/commit/0fd47ca6c1346c21d4d18a8abfb5e6b17b82e212) | fix(account): scrub sensitive logged settings | - | - | - |
+| [#11944](https://github.com/thunderbird/thunderbird-android/pull/11944) | 2026-11-23 | [e9af943](https://github.com/thunderbird/thunderbird-android/commit/e9af943d901e8dba2734309e2179ab7f3df4bc2a) | fix(file): fix file deletion issues | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -78,6 +79,10 @@
 | [#11933](https://github.com/thunderbird/thunderbird-android/pull/11933) | 2026-11-18 | [efec27f](https://github.com/thunderbird/thunderbird-android/commit/efec27f58acb8159ce85ac40045c13e3a9232739) | chore(deps): bump androidx.test.uiautomator:uiautomator from 2.4.0 to 2.4.1 | - | - | - |
 | [#11922](https://github.com/thunderbird/thunderbird-android/pull/11922) | 2026-11-19 | [1daaefb](https://github.com/thunderbird/thunderbird-android/commit/1daaefba6a2994496ec2e3a73888584ec7f00f54) | feat(appeal): remove old db entries and reset values | - | - | - |
 | [#11932](https://github.com/thunderbird/thunderbird-android/pull/11932) | 2026-11-20 | [2d88129](https://github.com/thunderbird/thunderbird-android/commit/2d881297d9005af4d8035d382f078d07aaa0e079) | chore(deps): bump com.networknt:json-schema-validator from 3.0.8 to 3.0.9 | - | - | - |
+| [#11931](https://github.com/thunderbird/thunderbird-android/pull/11931) | 2026-11-23 | [7f6642a](https://github.com/thunderbird/thunderbird-android/commit/7f6642a3723d1c866eef7b14e0c8e8e2f5c383e5) | chore(deps): bump the actions-deps group across 1 directory with 5 updates | - | - | - |
+| [#11935](https://github.com/thunderbird/thunderbird-android/pull/11935) | 2026-11-23 | [e7ab6bb](https://github.com/thunderbird/thunderbird-android/commit/e7ab6bbd83e62e42b648d5b183ffa5a3943ba828) | feat(appeal): create third appeal | - | - | - |
+| [#11945](https://github.com/thunderbird/thunderbird-android/pull/11945) | 2026-11-23 | [e9af943](https://github.com/thunderbird/thunderbird-android/commit/e9af943d901e8dba2734309e2179ab7f3df4bc2a) | chore(detekt): broaden detekt checks | - | - | - |
+| [#11937](https://github.com/thunderbird/thunderbird-android/pull/11937) | 2026-11-23 | [8ddc69d](https://github.com/thunderbird/thunderbird-android/commit/8ddc69d148e4bbefc5bb504a2342a0195647acd2) | feat(appeal): adds the third appeal content | - | - | - |
 
 </details>
 
@@ -87,18 +92,18 @@
 
 | PR | Merged | SHA | Title | Feature Flag | Beta | Release |
 |---|---|---|---|---|---|---|
-| [#11847](https://github.com/thunderbird/thunderbird-android/pull/11847) | 2026-11-04 | [85f509b](https://github.com/thunderbird/thunderbird-android/commit/85f509b409d781b94a70999282098a0264f9d137) | uplift(beta): fix(donation-appeal): prevent multiple openings of appeal dialog (#11846) | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | - |
-| [#11831](https://github.com/thunderbird/thunderbird-android/pull/11831) | 2026-11-04 | [04e52b8](https://github.com/thunderbird/thunderbird-android/commit/04e52b89191c7a15194acf75ac0483d5237ba6ca) | uplift(beta): fix CVE-2026-111943 | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | - |
-| [#11906](https://github.com/thunderbird/thunderbird-android/pull/11906) | 2026-11-16 | [e9c1701](https://github.com/thunderbird/thunderbird-android/commit/e9c1701ec5fad6632a0fb7647d42ee52b514fd4e) | uplift(beta): fix(widget): unread widget fails to load accounts (#11901) | - | [THUNDERBIRD_26_0b4](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b4) | - |
+| [#11847](https://github.com/thunderbird/thunderbird-android/pull/11847) | 2026-11-04 | [85f509b](https://github.com/thunderbird/thunderbird-android/commit/85f509b409d781b94a70999282098a0264f9d137) | uplift(beta): fix(donation-appeal): prevent multiple openings of appeal dialog (#11846) | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | Not released yet |
+| [#11831](https://github.com/thunderbird/thunderbird-android/pull/11831) | 2026-11-04 | [04e52b8](https://github.com/thunderbird/thunderbird-android/commit/04e52b89191c7a15194acf75ac0483d5237ba6ca) | uplift(beta): fix CVE-2026-111943 | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | Not released yet |
+| [#11906](https://github.com/thunderbird/thunderbird-android/pull/11906) | 2026-11-16 | [e9c1701](https://github.com/thunderbird/thunderbird-android/commit/e9c1701ec5fad6632a0fb7647d42ee52b514fd4e) | uplift(beta): fix(widget): unread widget fails to load accounts (#11901) | - | [THUNDERBIRD_26_0b4](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b4) | Not released yet |
 
 <details>
 <summary>Excluded</summary>
 
 | PR | Merged | SHA | Title | Feature Flag | Beta | Release |
 |---|---|---|---|---|---|---|
-| [#11864](https://github.com/thunderbird/thunderbird-android/pull/11864) | 2026-11-04 | [07743e8](https://github.com/thunderbird/thunderbird-android/commit/07743e8dc4495b7b1b0f6b58b788b1e865bc6b8e) | fix(changelog): remove prefixes that are not needed anymore | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | - |
-| [#11871](https://github.com/thunderbird/thunderbird-android/pull/11871) | 2026-11-05 | [8155df4](https://github.com/thunderbird/thunderbird-android/commit/8155df4940071727c4dedcc6cfe1103057ed7a75) | uplift(beta): fix message-view-restore-crash | - | [THUNDERBIRD_26_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b2) | - |
-| [#11903](https://github.com/thunderbird/thunderbird-android/pull/11903) | 2026-11-10 | [a178066](https://github.com/thunderbird/thunderbird-android/commit/a178066332c77dec8ae523757ab527a7b6703c81) | uplift(beta): chore(deps): bump org.jsoup:jsoup from 1.19.1 to 1.23.2 (#11890) | - | [THUNDERBIRD_26_0b3](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b3) | - |
+| [#11864](https://github.com/thunderbird/thunderbird-android/pull/11864) | 2026-11-04 | [07743e8](https://github.com/thunderbird/thunderbird-android/commit/07743e8dc4495b7b1b0f6b58b788b1e865bc6b8e) | fix(changelog): remove prefixes that are not needed anymore | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | Not released yet |
+| [#11871](https://github.com/thunderbird/thunderbird-android/pull/11871) | 2026-11-05 | [8155df4](https://github.com/thunderbird/thunderbird-android/commit/8155df4940071727c4dedcc6cfe1103057ed7a75) | uplift(beta): fix message-view-restore-crash | - | [THUNDERBIRD_26_0b2](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b2) | Not released yet |
+| [#11903](https://github.com/thunderbird/thunderbird-android/pull/11903) | 2026-11-10 | [a178066](https://github.com/thunderbird/thunderbird-android/commit/a178066332c77dec8ae523757ab527a7b6703c81) | uplift(beta): chore(deps): bump org.jsoup:jsoup from 1.19.1 to 1.23.2 (#11890) | - | [THUNDERBIRD_26_0b3](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b3) | Not released yet |
 
 </details>
 
