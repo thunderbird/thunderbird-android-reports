@@ -26,6 +26,7 @@
 | [#11914](https://github.com/thunderbird/thunderbird-android/pull/11914) | 2026-11-11 | [76e65d5](https://github.com/thunderbird/thunderbird-android/commit/76e65d5decfbfd8ccad4debfe2f602c213e4e64c) | feat(settings): Enable default-on push for all builds | push_enabled_on_inbox_by_default | - | - |
 | [#11918](https://github.com/thunderbird/thunderbird-android/pull/11918) | 2026-11-17 | [0fd47ca](https://github.com/thunderbird/thunderbird-android/commit/0fd47ca6c1346c21d4d18a8abfb5e6b17b82e212) | fix(account): scrub sensitive logged settings | - | - | - |
 | [#11944](https://github.com/thunderbird/thunderbird-android/pull/11944) | 2026-11-23 | [e9af943](https://github.com/thunderbird/thunderbird-android/commit/e9af943d901e8dba2734309e2179ab7f3df4bc2a) | fix(file): fix file deletion issues | - | - | - |
+| [#11925](https://github.com/thunderbird/thunderbird-android/pull/11925) | 2026-11-24 | [b69e4b2](https://github.com/thunderbird/thunderbird-android/commit/b69e4b2d57c68377d320caebc5b8742ec6e0edb4) | fix(launcher): navigate to permissions screen on onboarding | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -83,6 +84,10 @@
 | [#11935](https://github.com/thunderbird/thunderbird-android/pull/11935) | 2026-11-23 | [e7ab6bb](https://github.com/thunderbird/thunderbird-android/commit/e7ab6bbd83e62e42b648d5b183ffa5a3943ba828) | feat(appeal): create third appeal | - | - | - |
 | [#11945](https://github.com/thunderbird/thunderbird-android/pull/11945) | 2026-11-23 | [e9af943](https://github.com/thunderbird/thunderbird-android/commit/e9af943d901e8dba2734309e2179ab7f3df4bc2a) | chore(detekt): broaden detekt checks | - | - | - |
 | [#11937](https://github.com/thunderbird/thunderbird-android/pull/11937) | 2026-11-23 | [8ddc69d](https://github.com/thunderbird/thunderbird-android/commit/8ddc69d148e4bbefc5bb504a2342a0195647acd2) | feat(appeal): adds the third appeal content | - | - | - |
+| [#11955](https://github.com/thunderbird/thunderbird-android/pull/11955) | 2026-11-24 | [3744773](https://github.com/thunderbird/thunderbird-android/commit/3744773068569dbbc26b5101f91ef1104c3c7b7e) | chore(deps): bump androidGradlePlugin from 9.5.1 to 9.5.2 | - | - | - |
+| [#11958](https://github.com/thunderbird/thunderbird-android/pull/11958) | 2026-11-24 | [214eee3](https://github.com/thunderbird/thunderbird-android/commit/214eee3d058b16ac9f9d3bcee3bb885ab6392d97) | chore(deps): bump com.google.devtools.ksp from 2.3.13 to 2.3.14 | - | - | - |
+| [#11962](https://github.com/thunderbird/thunderbird-android/pull/11962) | 2026-11-24 | [bc4290c](https://github.com/thunderbird/thunderbird-android/commit/bc4290ccb30232e44f8ed102adee730aef27972d) | chore(deps): bump org.jetbrains.kotlinx:kotlinx-serialization-json from 1.12.0 to 1.13.0 | - | - | - |
+| [#11956](https://github.com/thunderbird/thunderbird-android/pull/11956) | 2026-11-24 | [84312bb](https://github.com/thunderbird/thunderbird-android/commit/84312bb681c2020679f94c3fa801b1d505d6a0e6) | chore(deps): bump org.robolectric:robolectric from 4.17 to 4.18 | - | - | - |
 
 </details>
 
