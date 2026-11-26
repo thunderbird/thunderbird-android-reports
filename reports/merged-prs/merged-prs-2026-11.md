@@ -27,6 +27,7 @@
 | [#11918](https://github.com/thunderbird/thunderbird-android/pull/11918) | 2026-11-17 | [0fd47ca](https://github.com/thunderbird/thunderbird-android/commit/0fd47ca6c1346c21d4d18a8abfb5e6b17b82e212) | fix(account): scrub sensitive logged settings | - | - | - |
 | [#11944](https://github.com/thunderbird/thunderbird-android/pull/11944) | 2026-11-23 | [e9af943](https://github.com/thunderbird/thunderbird-android/commit/e9af943d901e8dba2734309e2179ab7f3df4bc2a) | fix(file): fix file deletion issues | - | - | - |
 | [#11925](https://github.com/thunderbird/thunderbird-android/pull/11925) | 2026-11-24 | [b69e4b2](https://github.com/thunderbird/thunderbird-android/commit/b69e4b2d57c68377d320caebc5b8742ec6e0edb4) | fix(launcher): navigate to permissions screen on onboarding | - | - | - |
+| [#11927](https://github.com/thunderbird/thunderbird-android/pull/11927) | 2026-11-26 | [341ef05](https://github.com/thunderbird/thunderbird-android/commit/341ef05c238f7604eaea66095c50e50b91d8d6e9) | chore(i18n): Supplement Simplified Chinese translation for PGP UI | - | - | - |
 
 <details>
 <summary>Excluded</summary>
@@ -88,6 +89,8 @@
 | [#11958](https://github.com/thunderbird/thunderbird-android/pull/11958) | 2026-11-24 | [214eee3](https://github.com/thunderbird/thunderbird-android/commit/214eee3d058b16ac9f9d3bcee3bb885ab6392d97) | chore(deps): bump com.google.devtools.ksp from 2.3.13 to 2.3.14 | - | - | - |
 | [#11962](https://github.com/thunderbird/thunderbird-android/pull/11962) | 2026-11-24 | [bc4290c](https://github.com/thunderbird/thunderbird-android/commit/bc4290ccb30232e44f8ed102adee730aef27972d) | chore(deps): bump org.jetbrains.kotlinx:kotlinx-serialization-json from 1.12.0 to 1.13.0 | - | - | - |
 | [#11956](https://github.com/thunderbird/thunderbird-android/pull/11956) | 2026-11-24 | [84312bb](https://github.com/thunderbird/thunderbird-android/commit/84312bb681c2020679f94c3fa801b1d505d6a0e6) | chore(deps): bump org.robolectric:robolectric from 4.17 to 4.18 | - | - | - |
+| [#11961](https://github.com/thunderbird/thunderbird-android/pull/11961) | 2026-11-26 | [8da40e1](https://github.com/thunderbird/thunderbird-android/commit/8da40e1843be922c9ddfa83d24ed407917704dc8) | chore(deps): bump ch.qos.logback:logback-classic from 1.6.6 to 1.6.7 | - | - | - |
+| [#11957](https://github.com/thunderbird/thunderbird-android/pull/11957) | 2026-11-26 | [63779ba](https://github.com/thunderbird/thunderbird-android/commit/63779bad43ed3c9f05c32175a5bff11ca1427dd3) | chore(deps): bump com.github.ajalt.clikt:clikt from 5.1.0 to 5.2.0 | - | - | - |
 
 </details>
 
