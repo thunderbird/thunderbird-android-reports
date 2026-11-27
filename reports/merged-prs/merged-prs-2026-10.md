@@ -33,7 +33,7 @@
 | PR | Merged | SHA | Title | Feature Flag | Beta | Release |
 |---|---|---|---|---|---|---|
 | [#11665](https://github.com/thunderbird/thunderbird-android/pull/11665) | 2026-10-01 | [63eb38e](https://github.com/thunderbird/thunderbird-android/commit/63eb38ef558c85642fbb25e47728973aeecdc41b) | Bump versionName to 26.0 | - | [THUNDERBIRD_26_0b1](https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_26_0b1) | Not released yet |
-| [#11822](https://github.com/thunderbird/thunderbird-android/pull/11822) | 2026-10-30 | [3f2f921](https://github.com/thunderbird/thunderbird-android/commit/3f2f9216947d4c0e738dafca765b9b201795a881) | Bump versionName to 27.0 | - | - | - |
+| [#11822](https://github.com/thunderbird/thunderbird-android/pull/11822) | 2026-10-30 | [3f2f921](https://github.com/thunderbird/thunderbird-android/commit/3f2f9216947d4c0e738dafca765b9b201795a881) | Bump versionName to 27.0 | - | Not released yet | - |
 
 <details>
 <summary>Excluded</summary>
