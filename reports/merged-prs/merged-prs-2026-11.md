@@ -30,6 +30,7 @@
 | [#11927](https://github.com/thunderbird/thunderbird-android/pull/11927) | 2026-11-26 | [341ef05](https://github.com/thunderbird/thunderbird-android/commit/341ef05c238f7604eaea66095c50e50b91d8d6e9) | chore(i18n): Supplement Simplified Chinese translation for PGP UI | - | Not released yet | - |
 | [#11899](https://github.com/thunderbird/thunderbird-android/pull/11899) | 2026-11-26 | [280ea68](https://github.com/thunderbird/thunderbird-android/commit/280ea6853a6a894ddb92801109632ea732191788) | refactor(account-avatar): keep emoji grapheme clusters intact for SDK 24 to 28 | - | Not released yet | - |
 | [#11951](https://github.com/thunderbird/thunderbird-android/pull/11951) | 2026-11-27 | [9ec6916](https://github.com/thunderbird/thunderbird-android/commit/9ec691699491732563aed24bd835fdb436a4579d) | fix(funding): don't show reminder when host activity is torn down | - | - | - |
+| [#11942](https://github.com/thunderbird/thunderbird-android/pull/11942) | 2026-11-27 | [71efdf0](https://github.com/thunderbird/thunderbird-android/commit/71efdf0f33dc579823386cae0cb991b8d9dca92b) | chore(quality): add naming rules and partially enforce them across the project | - | - | - |
 
 ### Review
 
